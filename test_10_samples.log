@@ -1,0 +1,64 @@
+======================================================================
+Expanded Manifest LLM Analysis
+Manifest: manifest_expanded_300.csv
+Output: test_10_output.csv
+Started: 2026-01-01 18:24:41
+======================================================================
+Checking LiteLLM availability...
+LiteLLM available (provider: litellm)
+
+Manifest loaded: 10200 samples
+Existing signals loaded: 3388 already analyzed
+New samples to analyze: 8109
+Limited to: 10 samples
+
+Starting analysis with 4 parallel workers...
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+
+==================================================
+Progress: 5/10 (50.0%)
+Elapsed: 2.7 min | ETA: 2.7 min
+Success: 6 | trade_long: 0
+Total Cost: $0.0244
+==================================================
+
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 2
+
+==================================================
+Progress: 10/10 (100.0%)
+Elapsed: 3.9 min | ETA: 0.0 min
+Success: 9 | trade_long: 0
+Total Cost: $0.0346
+==================================================
+
+
+======================================================================
+FINAL SUMMARY
+======================================================================
+Total samples processed: 10
+Total time: 4.0 min
+Total cost: $0.0397
+Avg cost/sample: $0.0040
+Success rate: 10/10 (100.0%)
+New trade_long signals: 0
+
+Output saved to: test_10_output.csv
+Total signals in output: 3398

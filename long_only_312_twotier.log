@@ -1,0 +1,1465 @@
+======================================================================
+Long-only Strategy Validation Test (PARALLEL MODE)
+Samples: 312, Years: 2019-2024, Parallel Workers: 10
+Started: 2025-12-31 00:13:11
+======================================================================
+🔍 Checking LiteLLM availability...
+✅ LiteLLM is available (provider: litellm)
+
+Loaded 312 samples
+Year distribution: {2019: 52, 2020: 52, 2021: 54, 2022: 51, 2023: 52, 2024: 51}
+Category distribution: {'LOSER': 157, 'GAINER': 155}
+Sector distribution (top 5): {'Technology': 70, 'Healthcare': 41, 'Industrials': 41, 'Consumer Cyclical': 41, 'Financial Services': 37}
+
+Running 312 tests with 10 parallel workers...
+Progress reports every 25 samples
+
+[START 1/312] HCA 2021Q2 (GAINER)
+[START 2/312] CVS 2020Q2 (LOSER)
+[START 3/312] ECL 2023Q4 (GAINER)
+[START 4/312] CTSH 2020Q3 (GAINER)
+[START 5/312] VZ 2023Q3 (GAINER)
+[START 6/312] DLTR 2019Q4 (GAINER)
+[START 7/312] MDT 2022Q4 (LOSER)
+[START 8/312] VST 2021Q4 (GAINER)
+[START 9/312] SLB 2023Q1 (LOSER)
+[START 10/312] ECL 2020Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 6
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 6
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 1/312] SLB: DOWN(D:3) TL:False Ret:-11.1% Correct:True
+[START 11/312] ABBV 2019Q4 (LOSER)
+[DONE 2/312] VST: DOWN(D:4) TL:False Ret:13.1% Correct:False
+[START 12/312] FITB 2020Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 3/312] MDT: DOWN(D:3) TL:False Ret:-16.0% Correct:True
+[START 13/312] NEE 2024Q2 (GAINER)
+[DONE 4/312] VZ: DOWN(D:4) TL:False Ret:22.7% Correct:False
+[START 14/312] AES 2023Q2 (LOSER)
+[DONE 5/312] CTSH: UP(D:7) TL:False Ret:10.4% Correct:True
+[START 15/312] PANW 2020Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 6/312] HCA: DOWN(D:5) TL:False Ret:16.2% Correct:False
+[START 16/312] HST 2022Q1 (LOSER)
+[DONE 7/312] DLTR: UP(D:6) TL:False Ret:13.1% Correct:True
+[START 17/312] PAYC 2020Q4 (LOSER)
+[DONE 8/312] ECL: DOWN(D:4) TL:False Ret:14.2% Correct:False
+[START 18/312] WAB 2019Q3 (GAINER)
+[DONE 9/312] ECL: DOWN(D:4) TL:False Ret:14.0% Correct:False
+[START 19/312] XYL 2023Q3 (GAINER)
+[DONE 10/312] CVS: UP(D:6) TL:False Ret:-10.1% Correct:False
+[START 20/312] CBRE 2023Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 11/312] AES: DOWN(D:4) TL:False Ret:-17.3% Correct:True
+[START 21/312] LVS 2021Q3 (LOSER)
+[DONE 12/312] ABBV: UP(D:6) TL:False Ret:-26.0% Correct:False
+[START 22/312] BK 2023Q3 (GAINER)
+[DONE 13/312] NEE: DOWN(D:4) TL:False Ret:11.4% Correct:False
+[START 23/312] EFX 2021Q1 (GAINER)
+[DONE 14/312] FITB: DOWN(D:5) TL:False Ret:16.6% Correct:False
+[START 24/312] ALLE 2020Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 15/312] CBRE: DOWN(D:4) TL:False Ret:12.9% Correct:False
+[START 25/312] LMT 2024Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 16/312] XYL: UP(D:7) TL:True Ret:22.3% Correct:True
+[START 26/312] VST 2024Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 17/312] HST: DOWN(D:4) TL:False Ret:-19.5% Correct:True
+[START 27/312] EQIX 2019Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DONE 18/312] PAYC: UP(D:6) TL:False Ret:-16.2% Correct:False
+[START 28/312] GPN 2024Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 19/312] WAB: UP(D:4) TL:False Ret:10.0% Correct:True
+[START 29/312] APD 2019Q2 (GAINER)
+[DONE 20/312] PANW: DOWN(D:3) TL:False Ret:-27.2% Correct:True
+[START 30/312] URI 2022Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 21/312] BK: UP(D:6) TL:False Ret:13.6% Correct:True
+[START 31/312] MRNA 2023Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 22/312] ALLE: DOWN(D:3) TL:False Ret:-10.0% Correct:True
+[START 32/312] RVTY 2022Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 23/312] LVS: DOWN(D:3) TL:False Ret:-11.7% Correct:True
+[START 33/312] WSM 2022Q1 (GAINER)
+[DONE 24/312] EFX: UP(D:7) TL:False Ret:21.2% Correct:True
+[START 34/312] BDX 2020Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+
+======================================================================
+📊 PROGRESS REPORT [25/312] (8.0%)
+======================================================================
+⏱️  Elapsed: 5.6 min | ETA: 63.8 min | Avg: 13.3s/sample
+✅ Success: 25 | ❌ Failed: 0
+🎯 Overall Accuracy: 56.0% (14/25)
+📈 Long-only: 1 trades | Win Rate: 100.0% (1/1) | Avg Ret: +22.3%
+💰 Total Cost: $0.1061 | Avg: $0.0042/sample
+======================================================================
+
+[DONE 25/312] LMT: UP(D:6) TL:False Ret:21.1% Correct:True
+[START 35/312] PSKY 2023Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 26/312] VST: DOWN(D:3) TL:False Ret:-26.3% Correct:True
+[START 36/312] KLAC 2022Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 27/312] EQIX: UP(D:7) TL:False Ret:13.3% Correct:True
+[START 37/312] MGM 2024Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 28/312] URI: DOWN(D:5) TL:False Ret:19.0% Correct:False
+[START 38/312] TGT 2019Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 29/312] MRNA: DOWN(D:3) TL:False Ret:12.9% Correct:False
+[START 39/312] GE 2020Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 30/312] APD: UP(D:7) TL:False Ret:12.6% Correct:True
+[DONE 31/312] RVTY: UP(D:4) TL:False Ret:-10.0% Correct:False
+[START 40/312] CARR 2023Q3 (GAINER)
+[START 41/312] WFC 2024Q4 (GAINER)
+[DONE 32/312] GPN: UP(D:6) TL:False Ret:21.4% Correct:True
+[START 42/312] IFF 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 33/312] PSKY: UP(D:6) TL:False Ret:49.9% Correct:True
+[START 43/312] NVDA 2021Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 34/312] WSM: DOWN(D:5) TL:False Ret:11.6% Correct:False
+[START 44/312] KEYS 2023Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 35/312] KLAC: UP(D:6) TL:False Ret:-11.6% Correct:False
+[START 45/312] MRNA 2022Q3 (GAINER)
+[DONE 36/312] BDX: UP(D:3) TL:False Ret:-18.2% Correct:False
+[START 46/312] NCLH 2023Q2 (LOSER)
+[DONE 37/312] MGM: DOWN(D:4) TL:False Ret:-12.5% Correct:True
+[START 47/312] ADSK 2023Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 38/312] GE: DOWN(D:3) TL:False Ret:-12.9% Correct:True
+[START 48/312] LRCX 2022Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 39/312] TGT: UP(D:7) TL:False Ret:24.7% Correct:True
+[START 49/312] STLD 2020Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 40/312] IFF: DOWN(D:4) TL:False Ret:-21.0% Correct:True
+[START 50/312] IVZ 2019Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 41/312] NVDA: UP(D:6) TL:False Ret:12.4% Correct:True
+[START 51/312] DHI 2021Q4 (GAINER)
+[DONE 42/312] WFC: DOWN(D:5) TL:False Ret:10.0% Correct:False
+[START 52/312] TER 2024Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 43/312] CARR: DOWN(D:5) TL:False Ret:17.5% Correct:False
+[START 53/312] MDT 2019Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 44/312] KEYS: DOWN(D:4) TL:False Ret:10.4% Correct:False
+[START 54/312] TER 2023Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 45/312] MRNA: DOWN(D:4) TL:False Ret:30.1% Correct:False
+[START 55/312] BLDR 2020Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 46/312] ADSK: UP(D:7) TL:True Ret:-10.8% Correct:False
+[START 56/312] PSX 2020Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 47/312] NCLH: UP(D:7) TL:False Ret:-25.9% Correct:False
+[START 57/312] GL 2022Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 48/312] LRCX: DOWN(D:3) TL:False Ret:-19.0% Correct:True
+[START 58/312] PAYC 2021Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 49/312] STLD: DOWN(D:4) TL:False Ret:26.9% Correct:False
+[START 59/312] TRGP 2019Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+
+======================================================================
+📊 PROGRESS REPORT [50/312] (16.0%)
+======================================================================
+⏱️  Elapsed: 10.3 min | ETA: 54.0 min | Avg: 12.4s/sample
+✅ Success: 50 | ❌ Failed: 0
+🎯 Overall Accuracy: 52.0% (26/50)
+📈 Long-only: 2 trades | Win Rate: 50.0% (1/2) | Avg Ret: +5.8%
+💰 Total Cost: $0.2198 | Avg: $0.0044/sample
+======================================================================
+
+[DONE 50/312] IVZ: DOWN(D:4) TL:False Ret:-20.3% Correct:True
+[START 60/312] DECK 2020Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 51/312] TER: DOWN(D:4) TL:False Ret:-15.4% Correct:True
+[START 61/312] EMR 2020Q2 (GAINER)
+[DONE 52/312] MDT: DOWN(D:5) TL:False Ret:10.4% Correct:False
+[START 62/312] DECK 2019Q4 (GAINER)
+[DONE 53/312] DHI: DOWN(D:4) TL:False Ret:13.9% Correct:False
+[START 63/312] TTWO 2020Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 54/312] TER: UP(D:3) TL:False Ret:-13.0% Correct:False
+[START 64/312] TSLA 2020Q4 (LOSER)
+[DONE 55/312] TRGP: DOWN(D:5) TL:False Ret:21.5% Correct:False
+[START 65/312] BALL 2021Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 56/312] PSX: DOWN(D:4) TL:False Ret:46.1% Correct:False
+[START 66/312] CRWD 2022Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 57/312] GL: DOWN(D:3) TL:False Ret:-12.6% Correct:True
+[START 67/312] CPAY 2020Q2 (LOSER)
+[DONE 58/312] BLDR: DOWN(D:5) TL:False Ret:21.4% Correct:False
+[START 68/312] PAYC 2021Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 59/312] DECK: UP(D:6) TL:False Ret:18.2% Correct:True
+[START 69/312] ANET 2020Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 60/312] TSLA: DOWN(D:3) TL:False Ret:-19.7% Correct:True
+[START 70/312] DG 2023Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 61/312] CRWD: DOWN(D:3) TL:False Ret:15.9% Correct:False
+[START 71/312] AVGO 2024Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 62/312] PAYC: UP(D:7) TL:True Ret:20.5% Correct:True
+[START 72/312] KKR 2024Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 63/312] BALL: UP(D:6) TL:False Ret:-14.7% Correct:False
+[START 73/312] EOG 2019Q3 (GAINER)
+[DONE 64/312] TTWO: UP(D:8) TL:False Ret:12.5% Correct:True
+[START 74/312] HUBB 2022Q3 (GAINER)
+[DONE 65/312] CPAY: DOWN(D:3) TL:False Ret:-10.5% Correct:True
+[START 75/312] EW 2023Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 66/312] ANET: DOWN(D:4) TL:False Ret:-23.3% Correct:True
+[START 76/312] MLM 2023Q4 (GAINER)
+[DONE 67/312] DECK: DOWN(D:3) TL:False Ret:12.5% Correct:False
+[START 77/312] FISV 2019Q4 (LOSER)
+[DONE 68/312] PAYC: DOWN(D:3) TL:False Ret:-27.8% Correct:True
+[START 78/312] TMUS 2024Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 69/312] DG: DOWN(D:3) TL:False Ret:-10.2% Correct:True
+[START 79/312] ULTA 2020Q1 (LOSER)
+[DONE 70/312] EMR: DOWN(D:4) TL:False Ret:24.3% Correct:False
+[START 80/312] HD 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 6
+[DONE 71/312] AVGO: UP(D:7) TL:False Ret:19.4% Correct:True
+[START 81/312] EPAM 2023Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 6
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 72/312] EW: DOWN(D:4) TL:False Ret:12.0% Correct:False
+[START 82/312] RJF 2023Q1 (LOSER)
+[DONE 73/312] EOG: UP(D:6) TL:False Ret:15.7% Correct:True
+[START 83/312] ELV 2024Q3 (LOSER)
+[DONE 74/312] MLM: UP(D:6) TL:False Ret:16.4% Correct:True
+[START 84/312] SBUX 2020Q1 (LOSER)
+
+======================================================================
+📊 PROGRESS REPORT [75/312] (24.0%)
+======================================================================
+⏱️  Elapsed: 15.5 min | ETA: 48.8 min | Avg: 12.4s/sample
+✅ Success: 75 | ❌ Failed: 0
+🎯 Overall Accuracy: 53.3% (40/75)
+📈 Long-only: 3 trades | Win Rate: 66.7% (2/3) | Avg Ret: +10.7%
+💰 Total Cost: $0.3256 | Avg: $0.0043/sample
+======================================================================
+
+[DONE 75/312] KKR: DOWN(D:3) TL:False Ret:-28.6% Correct:True
+[START 85/312] C 2019Q2 (LOSER)
+[DONE 76/312] HUBB: UP(D:7) TL:True Ret:10.6% Correct:True
+[START 86/312] UAL 2024Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 77/312] FISV: UP(D:7) TL:False Ret:-33.6% Correct:False
+[START 87/312] LDOS 2019Q3 (GAINER)
+[DONE 78/312] ULTA: DOWN(D:3) TL:False Ret:-20.8% Correct:True
+[START 88/312] PM 2021Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 79/312] HD: DOWN(D:4) TL:False Ret:-19.8% Correct:True
+[START 89/312] LYB 2019Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 80/312] TMUS: UP(D:8) TL:True Ret:10.3% Correct:True
+[START 90/312] MTCH 2019Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 81/312] EPAM: DOWN(D:3) TL:False Ret:-19.0% Correct:True
+[START 91/312] TROW 2024Q4 (LOSER)
+[DONE 82/312] RJF: DOWN(D:4) TL:False Ret:-19.7% Correct:True
+[START 92/312] WAB 2020Q3 (GAINER)
+[DONE 83/312] ELV: DOWN(D:3) TL:False Ret:-18.1% Correct:True
+[START 93/312] APH 2019Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 84/312] PM: UP(D:6) TL:False Ret:-10.9% Correct:False
+[START 94/312] NFLX 2021Q1 (LOSER)
+[DONE 85/312] SBUX: DOWN(D:4) TL:False Ret:-29.9% Correct:True
+[START 95/312] GEN 2019Q2 (GAINER)
+[DONE 86/312] UAL: DOWN(D:4) TL:False Ret:23.7% Correct:False
+[START 96/312] WBD 2020Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 87/312] LDOS: UP(D:7) TL:False Ret:13.9% Correct:True
+[START 97/312] AZO 2022Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 88/312] MTCH: DOWN(D:4) TL:False Ret:12.5% Correct:False
+[START 98/312] EXPE 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 89/312] LYB: DOWN(D:3) TL:False Ret:10.0% Correct:False
+[START 99/312] XYZ 2023Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 90/312] WAB: UP(D:6) TL:False Ret:33.3% Correct:True
+[DONE 91/312] TROW: DOWN(D:3) TL:False Ret:-19.5% Correct:True
+[START 100/312] DDOG 2022Q2 (LOSER)
+[START 101/312] CCL 2023Q3 (LOSER)
+[DONE 92/312] C: UP(D:6) TL:False Ret:-12.6% Correct:False
+[START 102/312] ADSK 2023Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 93/312] APH: DOWN(D:3) TL:False Ret:-12.8% Correct:True
+[START 103/312] CSX 2019Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 94/312] GEN: DOWN(D:4) TL:False Ret:10.6% Correct:False
+[START 104/312] VMC 2022Q4 (LOSER)
+[DONE 95/312] NFLX: DOWN(D:4) TL:False Ret:-11.0% Correct:True
+[START 105/312] DHI 2024Q4 (LOSER)
+[DONE 96/312] AZO: DOWN(D:3) TL:False Ret:17.0% Correct:False
+[START 106/312] EXPE 2022Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 97/312] WBD: DOWN(D:4) TL:False Ret:-14.6% Correct:True
+[START 107/312] TTD 2021Q4 (LOSER)
+[DONE 98/312] EXPE: DOWN(D:4) TL:False Ret:-49.0% Correct:True
+[START 108/312] RL 2022Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 99/312] XYZ: DOWN(D:4) TL:False Ret:-30.3% Correct:True
+[START 109/312] HUM 2019Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+
+======================================================================
+📊 PROGRESS REPORT [100/312] (32.1%)
+======================================================================
+⏱️  Elapsed: 19.8 min | ETA: 42.1 min | Avg: 11.9s/sample
+✅ Success: 100 | ❌ Failed: 0
+🎯 Overall Accuracy: 57.0% (57/100)
+📈 Long-only: 5 trades | Win Rate: 80.0% (4/5) | Avg Ret: +10.6%
+💰 Total Cost: $0.4300 | Avg: $0.0043/sample
+======================================================================
+
+[DONE 100/312] DDOG: DOWN(D:4) TL:False Ret:-18.8% Correct:True
+[START 110/312] TAP 2022Q2 (LOSER)
+[DONE 101/312] ADSK: DOWN(D:3) TL:False Ret:-10.4% Correct:True
+[START 111/312] TER 2022Q3 (GAINER)
+[DONE 102/312] CCL: DOWN(D:4) TL:False Ret:-11.6% Correct:True
+[START 112/312] RVTY 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 103/312] CSX: DOWN(D:3) TL:False Ret:-17.8% Correct:True
+[START 113/312] APH 2024Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 8
+[DEBUG] CompareWithPeers bucket size after helper: 8
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 104/312] VMC: DOWN(D:3) TL:False Ret:-12.2% Correct:True
+[START 114/312] TSN 2020Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 105/312] EXPE: DOWN(D:4) TL:False Ret:-22.9% Correct:True
+[START 115/312] LVS 2022Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 106/312] TTD: UP(D:6) TL:False Ret:-14.0% Correct:False
+[START 116/312] DVA 2024Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 107/312] DHI: DOWN(D:3) TL:False Ret:-14.8% Correct:True
+[START 117/312] CCL 2022Q4 (GAINER)
+[DONE 108/312] RVTY: DOWN(D:4) TL:False Ret:-26.2% Correct:True
+[START 118/312] EBAY 2020Q1 (GAINER)
+[DONE 109/312] RL: UP(D:6) TL:False Ret:-10.7% Correct:False
+[START 119/312] GEN 2023Q3 (LOSER)
+[DONE 110/312] TAP: DOWN(D:3) TL:False Ret:-15.1% Correct:True
+[START 120/312] VICI 2019Q4 (LOSER)
+[DONE 111/312] TER: DOWN(D:3) TL:False Ret:19.0% Correct:False
+[START 121/312] COF 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 112/312] APH: DOWN(D:4) TL:False Ret:-15.1% Correct:True
+[START 122/312] MRNA 2023Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 113/312] HUM: UP(D:6) TL:False Ret:24.0% Correct:True
+[START 123/312] CAH 2022Q3 (LOSER)
+[DONE 114/312] TSN: DOWN(D:3) TL:False Ret:-36.3% Correct:True
+[START 124/312] F 2020Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 115/312] LVS: UP(D:4) TL:False Ret:34.7% Correct:True
+[START 125/312] COR 2023Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 116/312] COF: DOWN(D:4) TL:False Ret:-14.2% Correct:True
+[START 126/312] SJM 2021Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 117/312] VICI: DOWN(D:4) TL:False Ret:-51.0% Correct:True
+[START 127/312] AMP 2020Q1 (GAINER)
+[DONE 118/312] GEN: DOWN(D:3) TL:False Ret:-29.4% Correct:True
+[START 128/312] IDXX 2024Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 119/312] EBAY: DOWN(D:4) TL:False Ret:22.1% Correct:False
+[START 129/312] POOL 2022Q4 (LOSER)
+[DONE 120/312] DVA: UP(D:7) TL:False Ret:19.1% Correct:True
+[START 130/312] HAL 2021Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 121/312] CCL: UP(D:6) TL:False Ret:46.5% Correct:True
+[START 131/312] PSKY 2019Q2 (LOSER)
+[DONE 122/312] COR: DOWN(D:4) TL:False Ret:-10.0% Correct:True
+[START 132/312] IT 2024Q4 (LOSER)
+[DONE 123/312] CAH: UP(D:4) TL:False Ret:-16.2% Correct:False
+[START 133/312] GOOGL 2024Q3 (GAINER)
+[DONE 124/312] F: DOWN(D:3) TL:False Ret:31.7% Correct:False
+[START 134/312] CCI 2023Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+
+======================================================================
+📊 PROGRESS REPORT [125/312] (40.1%)
+======================================================================
+⏱️  Elapsed: 24.8 min | ETA: 37.0 min | Avg: 11.9s/sample
+✅ Success: 125 | ❌ Failed: 0
+🎯 Overall Accuracy: 60.8% (76/125)
+📈 Long-only: 5 trades | Win Rate: 80.0% (4/5) | Avg Ret: +10.6%
+💰 Total Cost: $0.5349 | Avg: $0.0043/sample
+======================================================================
+
+[DONE 125/312] MRNA: UP(D:6) TL:False Ret:17.5% Correct:True
+[START 135/312] DHI 2020Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 126/312] AMP: DOWN(D:4) TL:False Ret:21.8% Correct:False
+[START 136/312] NTAP 2019Q3 (GAINER)
+[DONE 127/312] SJM: UP(D:6) TL:False Ret:13.2% Correct:True
+[START 137/312] MTCH 2020Q3 (GAINER)
+[DONE 128/312] IDXX: UP(D:6) TL:False Ret:12.4% Correct:True
+[START 138/312] MHK 2021Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 129/312] HAL: UP(D:7) TL:False Ret:-18.7% Correct:False
+[START 139/312] TJX 2020Q4 (LOSER)
+[DONE 130/312] POOL: DOWN(D:4) TL:False Ret:-11.0% Correct:True
+[START 140/312] HPE 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 131/312] IT: UP(D:7) TL:False Ret:-18.0% Correct:False
+[START 141/312] GNRC 2023Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 132/312] CCI: DOWN(D:3) TL:False Ret:-11.5% Correct:True
+[START 142/312] LHX 2019Q2 (GAINER)
+[DONE 133/312] GOOGL: UP(D:7) TL:True Ret:13.1% Correct:True
+[START 143/312] IBKR 2021Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 134/312] PSKY: DOWN(D:3) TL:False Ret:-17.4% Correct:True
+[START 144/312] C 2020Q3 (GAINER)
+[DONE 135/312] DHI: DOWN(D:4) TL:False Ret:-12.9% Correct:True
+[START 145/312] AZO 2019Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 136/312] NTAP: DOWN(D:4) TL:False Ret:10.6% Correct:False
+[START 146/312] UHS 2024Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 137/312] MTCH: DOWN(D:4) TL:False Ret:20.5% Correct:False
+[START 147/312] DLR 2022Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 138/312] TJX: UP(D:7) TL:True Ret:-17.8% Correct:False
+[START 148/312] GOOG 2024Q4 (LOSER)
+[DONE 139/312] MHK: DOWN(D:4) TL:False Ret:-11.6% Correct:True
+[START 149/312] KVUE 2024Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 140/312] GNRC: DOWN(D:4) TL:False Ret:53.5% Correct:False
+[START 150/312] TECH 2021Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 141/312] HPE: DOWN(D:3) TL:False Ret:-11.3% Correct:True
+[START 151/312] CTVA 2021Q4 (GAINER)
+[DONE 142/312] IBKR: UP(D:6) TL:False Ret:-14.8% Correct:False
+[START 152/312] LW 2021Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 143/312] UHS: DOWN(D:4) TL:False Ret:13.0% Correct:False
+[START 153/312] RTX 2023Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 144/312] AZO: UP(D:6) TL:False Ret:15.6% Correct:True
+[START 154/312] BLDR 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 145/312] DLR: DOWN(D:3) TL:False Ret:-16.1% Correct:True
+[START 155/312] PFG 2023Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 146/312] LHX: UP(D:8) TL:False Ret:13.4% Correct:True
+[START 156/312] ROST 2022Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 147/312] TECH: DOWN(D:5) TL:False Ret:10.0% Correct:False
+[START 157/312] TTWO 2022Q4 (GAINER)
+[DONE 148/312] KVUE: DOWN(D:3) TL:False Ret:12.4% Correct:False
+[START 158/312] APO 2019Q4 (LOSER)
+[DONE 149/312] GOOG: DOWN(D:3) TL:False Ret:-20.5% Correct:True
+[START 159/312] GM 2024Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+
+======================================================================
+📊 PROGRESS REPORT [150/312] (48.1%)
+======================================================================
+⏱️  Elapsed: 29.5 min | ETA: 31.8 min | Avg: 11.8s/sample
+✅ Success: 150 | ❌ Failed: 0
+🎯 Overall Accuracy: 60.0% (90/150)
+📈 Long-only: 7 trades | Win Rate: 71.4% (5/7) | Avg Ret: +6.9%
+💰 Total Cost: $0.6375 | Avg: $0.0043/sample
+======================================================================
+
+[DONE 150/312] CTVA: UP(D:6) TL:False Ret:16.0% Correct:True
+[START 160/312] LH 2020Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 151/312] LW: DOWN(D:3) TL:False Ret:-18.5% Correct:True
+[START 161/312] ALGN 2021Q3 (GAINER)
+[DONE 152/312] RTX: DOWN(D:4) TL:False Ret:13.1% Correct:False
+[START 162/312] F 2024Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 153/312] BLDR: DOWN(D:3) TL:False Ret:-61.3% Correct:True
+[START 163/312] AMT 2019Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 154/312] PFG: DOWN(D:4) TL:False Ret:11.2% Correct:False
+[START 164/312] FTNT 2023Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 155/312] TTWO: DOWN(D:4) TL:False Ret:11.3% Correct:False
+[START 165/312] RCL 2022Q1 (LOSER)
+[DONE 156/312] ROST: DOWN(D:3) TL:False Ret:-20.5% Correct:True
+[START 166/312] GOOG 2024Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 157/312] APO: DOWN(D:3) TL:False Ret:-29.7% Correct:True
+[START 167/312] FIS 2024Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 158/312] GM: DOWN(D:4) TL:False Ret:-12.8% Correct:True
+[START 168/312] GS 2021Q4 (LOSER)
+[DONE 159/312] LH: DOWN(D:4) TL:False Ret:-12.7% Correct:True
+[START 169/312] NSC 2020Q3 (GAINER)
+[DONE 160/312] C: DOWN(D:4) TL:False Ret:24.4% Correct:False
+[START 170/312] MTCH 2022Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 161/312] ALGN: UP(D:6) TL:False Ret:10.5% Correct:True
+[START 171/312] WEC 2020Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 162/312] GOOG: UP(D:4) TL:False Ret:-13.6% Correct:False
+[START 172/312] CF 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 163/312] FTNT: UP(D:3) TL:False Ret:-20.2% Correct:False
+[START 173/312] IRM 2020Q1 (GAINER)
+[DONE 164/312] F: UP(D:3) TL:False Ret:-22.6% Correct:False
+[START 174/312] GLW 2024Q4 (LOSER)
+[DONE 165/312] RCL: DOWN(D:4) TL:False Ret:-52.1% Correct:True
+[START 175/312] SBUX 2020Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 166/312] FIS: UP(D:6) TL:False Ret:16.0% Correct:True
+[START 176/312] WBD 2024Q2 (GAINER)
+[DONE 167/312] NSC: DOWN(D:4) TL:False Ret:16.1% Correct:False
+[START 177/312] TMO 2024Q3 (LOSER)
+[DONE 168/312] AMT: DOWN(D:3) TL:False Ret:13.6% Correct:False
+[START 178/312] TAP 2020Q3 (GAINER)
+[DONE 169/312] MTCH: UP(D:3) TL:False Ret:-24.6% Correct:False
+[START 179/312] HST 2021Q3 (LOSER)
+[DONE 170/312] GS: UP(D:3) TL:False Ret:-11.7% Correct:False
+[START 180/312] STT 2023Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 171/312] WEC: UP(D:6) TL:False Ret:-10.5% Correct:False
+[START 181/312] ZBRA 2023Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 172/312] SBUX: DOWN(D:4) TL:False Ret:19.8% Correct:False
+[START 182/312] UDR 2022Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 173/312] IRM: DOWN(D:4) TL:False Ret:20.2% Correct:False
+[START 183/312] FDX 2021Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 174/312] GLW: UP(D:6) TL:False Ret:-11.0% Correct:False
+[START 184/312] AMD 2020Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+
+======================================================================
+📊 PROGRESS REPORT [175/312] (56.1%)
+======================================================================
+⏱️  Elapsed: 34.1 min | ETA: 26.7 min | Avg: 11.7s/sample
+✅ Success: 175 | ❌ Failed: 0
+🎯 Overall Accuracy: 57.1% (100/175)
+📈 Long-only: 7 trades | Win Rate: 71.4% (5/7) | Avg Ret: +6.9%
+💰 Total Cost: $0.7392 | Avg: $0.0042/sample
+======================================================================
+
+[DONE 175/312] CF: DOWN(D:3) TL:False Ret:-38.6% Correct:True
+[START 185/312] DE 2023Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 176/312] TMO: DOWN(D:4) TL:False Ret:-11.2% Correct:True
+[START 186/312] HUBB 2020Q4 (GAINER)
+[DONE 177/312] WBD: DOWN(D:3) TL:False Ret:11.0% Correct:False
+[START 187/312] NEE 2020Q4 (LOSER)
+[DONE 178/312] HST: DOWN(D:4) TL:False Ret:-11.7% Correct:True
+[START 188/312] SYF 2021Q1 (GAINER)
+[DONE 179/312] TAP: UP(D:6) TL:False Ret:37.6% Correct:True
+[START 189/312] PYPL 2023Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 6
+[DEBUG] CompareWithPeers bucket size after helper: 6
+[DONE 180/312] FDX: DOWN(D:4) TL:False Ret:-10.2% Correct:True
+[START 190/312] BKR 2021Q4 (GAINER)
+[DONE 181/312] ZBRA: UP(D:3) TL:False Ret:19.0% Correct:True
+[START 191/312] DGX 2022Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 182/312] UDR: UP(D:6) TL:False Ret:-10.6% Correct:False
+[START 192/312] SNPS 2019Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 183/312] DE: DOWN(D:3) TL:False Ret:-10.8% Correct:True
+[START 193/312] ABT 2021Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 184/312] HUBB: DOWN(D:4) TL:False Ret:19.4% Correct:False
+[START 194/312] STX 2021Q2 (GAINER)
+[DONE 185/312] AMD: UP(D:4) TL:False Ret:-10.4% Correct:False
+[START 195/312] DHR 2021Q2 (GAINER)
+[DONE 186/312] PYPL: DOWN(D:4) TL:False Ret:-12.3% Correct:True
+[START 196/312] PAYC 2024Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 187/312] NEE: DOWN(D:4) TL:False Ret:-14.3% Correct:True
+[START 197/312] CRWD 2023Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 188/312] STT: DOWN(D:4) TL:False Ret:-13.4% Correct:True
+[START 198/312] TFC 2020Q1 (GAINER)
+[DONE 189/312] SYF: DOWN(D:5) TL:False Ret:20.7% Correct:False
+[START 199/312] FOXA 2022Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 190/312] DGX: DOWN(D:4) TL:False Ret:18.8% Correct:False
+[START 200/312] J 2019Q1 (GAINER)
+[DONE 191/312] SNPS: UP(D:4) TL:False Ret:11.9% Correct:True
+[START 201/312] WDC 2022Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 192/312] ABT: DOWN(D:4) TL:False Ret:-14.9% Correct:True
+[START 202/312] ETN 2023Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 193/312] STX: DOWN(D:4) TL:False Ret:18.5% Correct:False
+[START 203/312] HBAN 2021Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DONE 194/312] DHR: UP(D:8) TL:True Ret:18.5% Correct:True
+[START 204/312] UAL 2019Q2 (LOSER)
+[DONE 195/312] PAYC: UP(D:8) TL:True Ret:36.1% Correct:True
+[START 205/312] XYZ 2019Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 196/312] BKR: UP(D:7) TL:False Ret:26.4% Correct:True
+[START 206/312] RMD 2024Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 197/312] CRWD: DOWN(D:3) TL:False Ret:-21.1% Correct:True
+[START 207/312] INCY 2024Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 198/312] FOXA: DOWN(D:4) TL:False Ret:-11.1% Correct:True
+[START 208/312] DAY 2021Q3 (LOSER)
+[DONE 199/312] TFC: DOWN(D:4) TL:False Ret:12.6% Correct:False
+[START 209/312] CDW 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+
+======================================================================
+📊 PROGRESS REPORT [200/312] (64.1%)
+======================================================================
+⏱️  Elapsed: 38.8 min | ETA: 21.7 min | Avg: 11.6s/sample
+✅ Success: 200 | ❌ Failed: 0
+🎯 Overall Accuracy: 58.5% (117/200)
+📈 Long-only: 9 trades | Win Rate: 77.8% (7/9) | Avg Ret: +11.4%
+💰 Total Cost: $0.8450 | Avg: $0.0042/sample
+======================================================================
+
+[DONE 200/312] WDC: DOWN(D:3) TL:False Ret:-17.4% Correct:True
+[START 210/312] ACN 2020Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 201/312] ETN: UP(D:8) TL:True Ret:14.4% Correct:True
+[START 211/312] APH 2020Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 202/312] J: UP(D:7) TL:False Ret:11.9% Correct:True
+[START 212/312] TRGP 2023Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 203/312] UAL: DOWN(D:4) TL:False Ret:-12.2% Correct:True
+[START 213/312] CTSH 2023Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 204/312] HBAN: DOWN(D:3) TL:False Ret:-15.5% Correct:True
+[START 214/312] OXY 2024Q4 (LOSER)
+[DONE 205/312] XYZ: DOWN(D:3) TL:False Ret:-26.8% Correct:True
+[START 215/312] CAH 2021Q1 (GAINER)
+[DONE 206/312] DAY: UP(D:7) TL:False Ret:-20.6% Correct:False
+[START 216/312] SCHW 2022Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 207/312] RMD: UP(D:6) TL:True Ret:15.4% Correct:True
+[START 217/312] MCO 2022Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 208/312] CDW: DOWN(D:4) TL:False Ret:-41.5% Correct:True
+[START 218/312] WYNN 2021Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 209/312] INCY: DOWN(D:4) TL:False Ret:14.0% Correct:False
+[START 219/312] NCLH 2023Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 210/312] ACN: DOWN(D:4) TL:False Ret:14.7% Correct:False
+[START 220/312] F 2021Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 211/312] APH: DOWN(D:3) TL:False Ret:31.0% Correct:False
+[START 221/312] ISRG 2022Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 212/312] CTSH: DOWN(D:4) TL:False Ret:17.3% Correct:False
+[START 222/312] APH 2024Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 213/312] TRGP: DOWN(D:4) TL:False Ret:27.0% Correct:False
+[START 223/312] BA 2022Q1 (LOSER)
+[DONE 214/312] CAH: UP(D:6) TL:False Ret:11.2% Correct:True
+[START 224/312] CFG 2023Q1 (LOSER)
+[DONE 215/312] MCO: UP(D:3) TL:False Ret:12.5% Correct:True
+[START 225/312] COIN 2021Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 216/312] OXY: UP(D:6) TL:False Ret:-13.9% Correct:False
+[START 226/312] TMO 2022Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 217/312] F: DOWN(D:3) TL:False Ret:-17.1% Correct:True
+[START 227/312] ISRG 2024Q4 (LOSER)
+[DONE 218/312] WYNN: DOWN(D:4) TL:False Ret:-17.2% Correct:True
+[START 228/312] MTD 2024Q4 (LOSER)
+[DONE 219/312] ISRG: DOWN(D:4) TL:False Ret:41.7% Correct:False
+[START 229/312] VZ 2024Q4 (GAINER)
+[DONE 220/312] SCHW: UP(D:6) TL:False Ret:19.2% Correct:True
+[START 230/312] MSCI 2020Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 221/312] APH: UP(D:6) TL:False Ret:14.5% Correct:True
+[START 231/312] FITB 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 222/312] NCLH: DOWN(D:4) TL:False Ret:45.8% Correct:False
+[START 232/312] WYNN 2022Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 223/312] CFG: DOWN(D:4) TL:False Ret:-13.3% Correct:True
+[START 233/312] ADI 2022Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 224/312] MTD: DOWN(D:4) TL:False Ret:-10.7% Correct:True
+[START 234/312] LVS 2024Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+
+======================================================================
+📊 PROGRESS REPORT [225/312] (72.1%)
+======================================================================
+⏱️  Elapsed: 43.4 min | ETA: 16.8 min | Avg: 11.6s/sample
+✅ Success: 225 | ❌ Failed: 0
+🎯 Overall Accuracy: 59.1% (133/225)
+📈 Long-only: 11 trades | Win Rate: 81.8% (9/11) | Avg Ret: +12.1%
+💰 Total Cost: $0.9524 | Avg: $0.0042/sample
+======================================================================
+
+[DONE 225/312] COIN: DOWN(D:4) TL:False Ret:-11.9% Correct:True
+[START 235/312] SPGI 2022Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 226/312] ISRG: DOWN(D:4) TL:False Ret:-20.7% Correct:True
+[START 236/312] LW 2023Q4 (LOSER)
+[DONE 227/312] VZ: UP(D:6) TL:False Ret:18.7% Correct:True
+[START 237/312] AFL 2024Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 228/312] FITB: DOWN(D:4) TL:False Ret:-18.4% Correct:True
+[START 238/312] STLD 2021Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 229/312] MSCI: DOWN(D:3) TL:False Ret:-11.5% Correct:True
+[START 239/312] DOW 2021Q3 (LOSER)
+[DONE 230/312] BA: DOWN(D:3) TL:False Ret:-19.9% Correct:True
+[START 240/312] RF 2020Q3 (GAINER)
+[DONE 231/312] LVS: DOWN(D:4) TL:False Ret:-10.4% Correct:True
+[START 241/312] VRSK 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 232/312] ADI: DOWN(D:4) TL:False Ret:-20.7% Correct:True
+[START 242/312] CARR 2022Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 233/312] WYNN: DOWN(D:5) TL:False Ret:18.2% Correct:False
+[START 243/312] HRL 2024Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 7
+[DEBUG] CompareWithPeers bucket size after helper: 7
+[DONE 234/312] LW: DOWN(D:3) TL:False Ret:-14.2% Correct:True
+[START 244/312] SOLV 2024Q4 (LOSER)
+[DONE 235/312] AFL: DOWN(D:5) TL:False Ret:13.8% Correct:False
+[START 245/312] MDT 2020Q3 (LOSER)
+[DONE 236/312] TMO: DOWN(D:4) TL:False Ret:10.4% Correct:False
+[START 246/312] ALB 2023Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 237/312] STLD: UP(D:6) TL:False Ret:16.6% Correct:True
+[START 247/312] JPM 2021Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 238/312] DOW: UP(D:6) TL:False Ret:-11.4% Correct:False
+[START 248/312] NWSA 2021Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 239/312] VRSK: DOWN(D:4) TL:False Ret:-17.9% Correct:True
+[START 249/312] JBL 2024Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 240/312] RF: UP(D:6) TL:False Ret:31.0% Correct:True
+[START 250/312] CMG 2021Q3 (LOSER)
+[DONE 241/312] SPGI: DOWN(D:4) TL:False Ret:-12.5% Correct:True
+[START 251/312] WST 2023Q2 (GAINER)
+[DONE 242/312] HRL: DOWN(D:4) TL:False Ret:10.1% Correct:False
+[START 252/312] CRM 2021Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 243/312] MDT: DOWN(D:4) TL:False Ret:-23.1% Correct:True
+[START 253/312] APP 2022Q1 (GAINER)
+[DONE 244/312] NWSA: DOWN(D:4) TL:False Ret:16.4% Correct:False
+[START 254/312] IR 2024Q4 (LOSER)
+[DONE 245/312] SOLV: DOWN(D:4) TL:False Ret:-15.0% Correct:True
+[START 255/312] IPG 2022Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 246/312] JPM: DOWN(D:3) TL:False Ret:-18.9% Correct:True
+[START 256/312] NEM 2021Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 247/312] ALB: DOWN(D:3) TL:False Ret:19.6% Correct:False
+[START 257/312] JCI 2023Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 248/312] CMG: DOWN(D:4) TL:False Ret:-12.0% Correct:True
+[START 258/312] MTB 2022Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 249/312] JBL: DOWN(D:4) TL:False Ret:-21.1% Correct:True
+[START 259/312] VRTX 2019Q3 (GAINER)
+
+======================================================================
+📊 PROGRESS REPORT [250/312] (80.1%)
+======================================================================
+⏱️  Elapsed: 48.2 min | ETA: 12.0 min | Avg: 11.6s/sample
+✅ Success: 250 | ❌ Failed: 0
+🎯 Overall Accuracy: 60.0% (150/250)
+📈 Long-only: 11 trades | Win Rate: 81.8% (9/11) | Avg Ret: +12.1%
+💰 Total Cost: $1.0551 | Avg: $0.0042/sample
+======================================================================
+
+[DONE 250/312] CARR: DOWN(D:4) TL:False Ret:15.8% Correct:False
+[START 260/312] TFC 2023Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 251/312] CRM: DOWN(D:4) TL:False Ret:-11.7% Correct:True
+[START 261/312] DDOG 2021Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 252/312] WST: UP(D:6) TL:False Ret:11.9% Correct:True
+[START 262/312] IT 2023Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 253/312] APP: DOWN(D:4) TL:False Ret:40.5% Correct:False
+[START 263/312] GLW 2024Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 254/312] NEM: DOWN(D:4) TL:False Ret:18.7% Correct:False
+[START 264/312] PODD 2022Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 255/312] IPG: UP(D:6) TL:False Ret:-14.9% Correct:False
+[START 265/312] DVA 2024Q4 (LOSER)
+[DONE 256/312] JCI: DOWN(D:3) TL:False Ret:-18.4% Correct:True
+[START 266/312] NKE 2024Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 257/312] MTB: DOWN(D:3) TL:False Ret:-11.1% Correct:True
+[START 267/312] STZ 2020Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 258/312] VRTX: UP(D:7) TL:False Ret:12.3% Correct:True
+[START 268/312] SBAC 2024Q2 (GAINER)
+[DONE 259/312] TFC: DOWN(D:3) TL:False Ret:15.8% Correct:False
+[START 269/312] UPS 2023Q2 (LOSER)
+[DONE 260/312] DDOG: DOWN(D:4) TL:False Ret:24.5% Correct:False
+[START 270/312] NTRS 2023Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 261/312] GLW: DOWN(D:4) TL:False Ret:19.6% Correct:False
+[START 271/312] MU 2019Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 262/312] IR: DOWN(D:3) TL:False Ret:-13.5% Correct:True
+[START 272/312] TRMB 2022Q4 (LOSER)
+[DONE 263/312] NKE: DOWN(D:3) TL:False Ret:-20.8% Correct:True
+[START 273/312] NFLX 2024Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 264/312] DVA: DOWN(D:2) TL:False Ret:-13.6% Correct:True
+[START 274/312] DLTR 2021Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 265/312] STZ: DOWN(D:3) TL:False Ret:-11.6% Correct:True
+[START 275/312] KO 2022Q3 (GAINER)
+[DONE 266/312] IT: DOWN(D:4) TL:False Ret:33.2% Correct:False
+[START 276/312] CSGP 2023Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 267/312] PODD: UP(D:7) TL:False Ret:15.2% Correct:True
+[START 277/312] MTCH 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 268/312] SBAC: DOWN(D:3) TL:False Ret:11.0% Correct:False
+[START 278/312] HPQ 2022Q1 (GAINER)
+[DONE 269/312] UPS: DOWN(D:4) TL:False Ret:-13.5% Correct:True
+[START 279/312] ANET 2021Q4 (GAINER)
+[DONE 270/312] NTRS: DOWN(D:3) TL:False Ret:-12.0% Correct:True
+[START 280/312] LNT 2021Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 271/312] TRMB: DOWN(D:3) TL:False Ret:-18.3% Correct:True
+[START 281/312] AMD 2019Q3 (GAINER)
+[DONE 272/312] NFLX: UP(D:7) TL:True Ret:30.5% Correct:True
+[START 282/312] EQIX 2022Q3 (GAINER)
+[DONE 273/312] MU: DOWN(D:3) TL:False Ret:15.7% Correct:False
+[START 283/312] RF 2019Q1 (LOSER)
+[DONE 274/312] DLTR: DOWN(D:3) TL:False Ret:-10.2% Correct:True
+[START 284/312] ODFL 2021Q2 (GAINER)
+
+======================================================================
+📊 PROGRESS REPORT [275/312] (88.1%)
+======================================================================
+⏱️  Elapsed: 53.1 min | ETA: 7.1 min | Avg: 11.6s/sample
+✅ Success: 275 | ❌ Failed: 0
+🎯 Overall Accuracy: 60.0% (165/275)
+📈 Long-only: 12 trades | Win Rate: 83.3% (10/12) | Avg Ret: +13.6%
+💰 Total Cost: $1.1651 | Avg: $0.0042/sample
+======================================================================
+
+[DONE 275/312] KO: DOWN(D:4) TL:False Ret:10.4% Correct:False
+[START 285/312] DD 2022Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 276/312] MTCH: DOWN(D:4) TL:False Ret:-38.8% Correct:True
+[START 286/312] NXPI 2019Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 277/312] LNT: UP(D:6) TL:False Ret:10.7% Correct:True
+[START 287/312] VST 2020Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 278/312] CSGP: UP(D:6) TL:False Ret:13.0% Correct:True
+[START 288/312] NCLH 2019Q2 (GAINER)
+[DONE 279/312] ANET: UP(D:6) TL:False Ret:12.5% Correct:True
+[START 289/312] HII 2024Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 280/312] HPQ: DOWN(D:4) TL:False Ret:10.3% Correct:False
+[START 290/312] AON 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 281/312] AMD: UP(D:7) TL:False Ret:10.1% Correct:True
+[START 291/312] KDP 2023Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 282/312] EQIX: UP(D:7) TL:True Ret:21.6% Correct:True
+[START 292/312] STE 2023Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 283/312] RF: DOWN(D:3) TL:False Ret:-11.3% Correct:True
+[START 293/312] HPQ 2021Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 284/312] DD: DOWN(D:4) TL:False Ret:10.7% Correct:False
+[START 294/312] MU 2020Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 285/312] NXPI: DOWN(D:5) TL:False Ret:11.7% Correct:False
+[START 295/312] KEYS 2024Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 286/312] VST: DOWN(D:3) TL:False Ret:-24.6% Correct:True
+[START 296/312] NKE 2021Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 287/312] AON: UP(D:7) TL:False Ret:-22.4% Correct:False
+[START 297/312] FTV 2020Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 288/312] KDP: DOWN(D:3) TL:False Ret:-11.8% Correct:True
+[START 298/312] ETN 2019Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 289/312] ODFL: UP(D:7) TL:False Ret:11.7% Correct:True
+[START 299/312] PAYX 2022Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 290/312] STE: UP(D:3) TL:False Ret:-14.2% Correct:False
+[START 300/312] AOS 2023Q3 (GAINER)
+[DONE 291/312] NCLH: DOWN(D:4) TL:False Ret:12.7% Correct:False
+[START 301/312] UAL 2021Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 292/312] HPQ: DOWN(D:4) TL:False Ret:20.1% Correct:False
+[START 302/312] LUV 2021Q3 (LOSER)
+[DONE 293/312] HII: DOWN(D:3) TL:False Ret:-23.3% Correct:True
+[START 303/312] FICO 2021Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 294/312] KEYS: DOWN(D:3) TL:False Ret:11.5% Correct:False
+[START 304/312] LULU 2024Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 295/312] NKE: UP(D:7) TL:True Ret:28.6% Correct:True
+[START 305/312] REGN 2020Q2 (LOSER)
+[DONE 296/312] FTV: UP(D:6) TL:False Ret:10.9% Correct:True
+[START 306/312] HWM 2021Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 297/312] MU: DOWN(D:4) TL:False Ret:13.5% Correct:False
+[START 307/312] TGT 2019Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 6
+[DEBUG] CompareWithPeers bucket size after helper: 6
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 298/312] UAL: DOWN(D:4) TL:False Ret:-17.3% Correct:True
+[START 308/312] COST 2021Q4 (GAINER)
+[DONE 299/312] AOS: UP(D:8) TL:True Ret:19.6% Correct:True
+[START 309/312] LYV 2020Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+
+======================================================================
+📊 PROGRESS REPORT [300/312] (96.2%)
+======================================================================
+⏱️  Elapsed: 57.8 min | ETA: 2.3 min | Avg: 11.6s/sample
+✅ Success: 300 | ❌ Failed: 0
+🎯 Overall Accuracy: 60.3% (181/300)
+📈 Long-only: 15 trades | Win Rate: 86.7% (13/15) | Avg Ret: +15.5%
+💰 Total Cost: $1.2783 | Avg: $0.0043/sample
+======================================================================
+
+[DONE 300/312] LUV: DOWN(D:3) TL:False Ret:-10.5% Correct:True
+[START 310/312] AIG 2022Q1 (LOSER)
+[DONE 301/312] FICO: DOWN(D:4) TL:False Ret:-13.5% Correct:True
+[START 311/312] ON 2021Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 302/312] ETN: UP(D:6) TL:False Ret:-27.9% Correct:False
+[START 312/312] BR 2020Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 303/312] PAYX: UP(D:7) TL:True Ret:14.4% Correct:True
+[DONE 304/312] REGN: DOWN(D:4) TL:False Ret:-11.1% Correct:True
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 305/312] HWM: DOWN(D:4) TL:False Ret:10.5% Correct:False
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 306/312] TGT: UP(D:7) TL:False Ret:11.5% Correct:True
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 307/312] ON: DOWN(D:4) TL:False Ret:22.5% Correct:False
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 308/312] COST: DOWN(D:4) TL:False Ret:13.3% Correct:False
+[DONE 309/312] LYV: DOWN(D:3) TL:False Ret:27.9% Correct:False
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 310/312] BR: DOWN(D:3) TL:False Ret:-23.0% Correct:True
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 311/312] LULU: DOWN(D:2) TL:False Ret:-10.9% Correct:True
+
+======================================================================
+📊 PROGRESS REPORT [312/312] (100.0%)
+======================================================================
+⏱️  Elapsed: 60.4 min | ETA: 0.0 min | Avg: 11.6s/sample
+✅ Success: 312 | ❌ Failed: 0
+🎯 Overall Accuracy: 60.3% (188/312)
+📈 Long-only: 16 trades | Win Rate: 87.5% (14/16) | Avg Ret: +15.5%
+💰 Total Cost: $1.3319 | Avg: $0.0043/sample
+======================================================================
+
+[DONE 312/312] AIG: DOWN(D:4) TL:False Ret:-16.1% Correct:True
+
+======================================================================
+🏁 FINAL SUMMARY
+======================================================================
+
+📊 Execution Stats:
+  Total Samples: 312
+  Successful: 312 (100.0%)
+  Failed: 0 (0.0%)
+
+🎯 Overall Accuracy: 60.3% (188/312)
+
+📈 Long-only Strategy:
+  Coverage: 16/312 (5.1%)
+  Win Rate: 87.5% (14W / 2L)
+  Avg Return: +15.46%
+  Winners Avg Return: +19.71%
+  Losers Avg Return: -14.28%
+
+📅 Performance by Year:
+  2019: 52 samples | Acc: 71.2% | Long: 0 (0% win)
+  2020: 52 samples | Acc: 48.1% | Long: 1 (0% win)
+  2021: 54 samples | Acc: 61.1% | Long: 3 (100% win)
+  2022: 51 samples | Acc: 54.9% | Long: 3 (100% win)
+  2023: 52 samples | Acc: 59.6% | Long: 4 (75% win)
+  2024: 51 samples | Acc: 66.7% | Long: 5 (100% win)
+
+🏭 Long-only by Sector:
+  Industrials: 5 trades | 100% win | +16.3% avg ret
+  Technology: 3 trades | 67% win | +15.3% avg ret
+  Communication Services: 3 trades | 100% win | +18.0% avg ret
+  Consumer Cyclical: 2 trades | 50% win | +5.4% avg ret
+  Healthcare: 2 trades | 100% win | +16.9% avg ret
+  Real Estate: 1 trades | 100% win | +21.6% avg ret
+
+📊 Direction Score Distribution:
+  Score 2: 2 samples
+  Score 3: 86 samples
+  Score 4: 123 samples
+  Score 5: 14 samples
+  Score 6: 49 samples
+  Score 7: 31 samples
+  Score 8: 7 samples
+
+----------------------------------------
+💰 EXECUTION STATS
+----------------------------------------
+Total Time: 3628.1s (60.5 min)
+Avg Time/Sample: 11.6s
+Total Tokens: 1,957,689 (input: 1,476,238, output: 481,451)
+Total Cost: $1.3319
+Avg Cost/Sample: $0.0043
+
+📁 Results saved to: /Users/garen.lee/Coding/agentic-openenvolve2/long_only_test_2019_2024_20251231_011339.csv
+
+⚠️  Long-only LOSSES (2 trades):
+  ADSK 2023Q1: -10.8% | Technology | D:7
+  TJX 2020Q4: -17.8% | Consumer Cyclical | D:7

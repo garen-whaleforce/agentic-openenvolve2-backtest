@@ -1,0 +1,22 @@
+symbol,year,quarter,category,company_name,sector,success,error,time_seconds,prediction,confidence,direction_score,actual_return_30d_pct,correct,trade_long,summary
+APP,2023,2,GAINER,AppLovin Corporation,Technology,False,"Agentic RAG pipeline failure: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>",4.25810694694519,,,,,,False,
+DUK,2022,1,LOSER,Duke Energy,Utilities,False,"Agentic RAG pipeline failure: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>",2.5462160110473633,,,,,,False,
+RCL,2019,3,GAINER,Royal Caribbean Group,Consumer Cyclical,False,"Agentic RAG pipeline failure: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>",2.614409923553467,,,,,,False,

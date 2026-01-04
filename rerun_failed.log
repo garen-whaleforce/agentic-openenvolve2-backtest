@@ -1,0 +1,1372 @@
+======================================================================
+Rerunning Failed Samples
+Source CSV: /Users/garen.lee/Desktop/validation_results.csv
+Parallel Workers: 5
+Started: 2026-01-03 20:54:15
+======================================================================
+
+Loaded 8648 total samples
+Success: 8310, Failed: 338
+
+Rerunning 338 failed samples with 5 parallel workers...
+[START 1/338] ABNB 2024Q1
+[START 2/338] TYL 2022Q1
+[START 3/338] C 2024Q2
+[START 4/338] RJF 2021Q3
+[START 5/338] ROL 2025Q2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 5/338] ROL: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 6/338] IR 2020Q3
+[DONE 1/338] ABNB: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 7/338] CB 2018Q3
+[DONE 4/338] RJF: UP(D:6) TL:False Ret:N/A Correct:None
+[START 8/338] VZ 2019Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 3/338] C: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 9/338] ELV 2020Q2
+[DONE 2/338] TYL: UP(D:7) TL:True Ret:N/A Correct:None
+[START 10/338] MCK 2022Q4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 9/338] ELV: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 11/338] VTR 2024Q1
+[DONE 7/338] CB: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 12/338] BEN 2022Q1
+[DONE 8/338] VZ: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 13/338] DASH 2024Q1
+[DONE 6/338] IR: UP(D:6) TL:False Ret:N/A Correct:None
+[START 14/338] FISV 2021Q4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 10/338] MCK: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 15/338] MSFT 2021Q2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 13/338] DASH: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 16/338] AMAT 2025Q3
+[DONE 12/338] BEN: UP(D:6) TL:False Ret:N/A Correct:None
+[START 17/338] STZ 2019Q1
+[DONE 11/338] VTR: UP(D:7) TL:True Ret:N/A Correct:None
+[START 18/338] CBRE 2020Q2
+[DONE 14/338] FISV: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 19/338] TAP 2017Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 15/338] MSFT: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 20/338] PYPL 2021Q3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 16/338] AMAT: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 21/338] MO 2020Q1
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 19/338] TAP: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 22/338] HON 2017Q3
+[DONE 18/338] CBRE: UP(D:6) TL:False Ret:N/A Correct:None
+[START 23/338] VMC 2023Q2
+[DONE 17/338] STZ: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 24/338] ZBH 2024Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 20/338] PYPL: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 25/338] VRTX 2022Q4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 21/338] MO: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 26/338] IFF 2022Q4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 23/338] VMC: UP(D:6) TL:False Ret:N/A Correct:None
+[START 27/338] ITW 2019Q2
+[DONE 22/338] HON: UP(D:6) TL:False Ret:N/A Correct:None
+[START 28/338] EIX 2019Q2
+[DONE 24/338] ZBH: UP(D:6) TL:False Ret:N/A Correct:None
+[START 29/338] GOOG 2020Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 25/338] VRTX: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 30/338] COR 2021Q1
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 28/338] EIX: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 31/338] CL 2020Q1
+[DONE 27/338] ITW: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 32/338] MLM 2023Q2
+[DONE 26/338] IFF: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 33/338] AZO 2020Q2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 29/338] GOOG: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 34/338] CARR 2025Q1
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 30/338] COR: UP(D:6) TL:True Ret:N/A Correct:None
+[START 35/338] EMR 2021Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 32/338] MLM: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 36/338] DOC 2020Q2
+[DONE 33/338] AZO: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 37/338] HCA 2020Q2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 31/338] CL: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 38/338] DLTR 2024Q4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 34/338] CARR: UP(D:6) TL:False Ret:N/A Correct:None
+[START 39/338] UPS 2025Q2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 35/338] EMR: UP(D:7) TL:False Ret:N/A Correct:None
+[START 40/338] FTNT 2020Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 37/338] HCA: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 41/338] PSA 2024Q2
+[DONE 36/338] DOC: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 42/338] CHD 2019Q1
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 38/338] DLTR: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 43/338] INCY 2020Q2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 39/338] UPS: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 44/338] NVDA 2025Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 40/338] FTNT: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 45/338] AMZN 2020Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 41/338] PSA: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 46/338] MLM 2021Q3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 42/338] CHD: UP(D:6) TL:True Ret:N/A Correct:None
+[START 47/338] TDG 2022Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 43/338] INCY: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 48/338] FRT 2023Q4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 44/338] NVDA: UP(D:7) TL:True Ret:N/A Correct:None
+[START 49/338] TAP 2024Q3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 45/338] AMZN: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 50/338] TGT 2018Q3
+[DEBUG] CompareWithPeers bucket size before helper: 7
+[DEBUG] CompareWithPeers bucket size after helper: 7
+[DONE 46/338] MLM: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 51/338] HON 2023Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 47/338] TDG: UP(D:6) TL:False Ret:N/A Correct:None
+[START 52/338] DVN 2018Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 48/338] FRT: UP(D:6) TL:False Ret:N/A Correct:None
+[START 53/338] RVTY 2024Q4
+[DONE 49/338] TAP: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 54/338] FIS 2021Q3
+[DONE 50/338] TGT: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 55/338] HAL 2022Q4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 51/338] HON: UP(D:6) TL:False Ret:N/A Correct:None
+[START 56/338] BDX 2022Q2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 52/338] DVN: UP(D:7) TL:True Ret:N/A Correct:None
+[START 57/338] CF 2021Q2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 53/338] RVTY: UP(D:6) TL:False Ret:N/A Correct:None
+[START 58/338] FANG 2021Q4
+[DONE 55/338] HAL: UP(D:6) TL:False Ret:N/A Correct:None
+[START 59/338] WMT 2024Q2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 54/338] FIS: UP(D:7) TL:False Ret:N/A Correct:None
+[START 60/338] MO 2017Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 57/338] CF: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 61/338] MLM 2018Q2
+[DONE 56/338] BDX: UP(D:7) TL:True Ret:N/A Correct:None
+[START 62/338] CPRT 2021Q2
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DONE 58/338] FANG: UP(D:7) TL:False Ret:N/A Correct:None
+[START 63/338] MKC 2020Q1
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 59/338] WMT: UP(D:7) TL:False Ret:N/A Correct:None
+[START 64/338] GNRC 2018Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 60/338] MO: UP(D:6) TL:False Ret:N/A Correct:None
+[START 65/338] COP 2020Q1
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 61/338] MLM: UP(D:6) TL:False Ret:N/A Correct:None
+[START 66/338] WRB 2024Q1
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 62/338] CPRT: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 67/338] CPRT 2018Q4
+[DONE 63/338] MKC: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 68/338] STZ 2025Q3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 64/338] GNRC: UP(D:8) TL:False Ret:N/A Correct:None
+[START 69/338] ADM 2021Q2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 65/338] COP: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 70/338] BA 2019Q4
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 66/338] WRB: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 71/338] APD 2023Q3
+[DONE 68/338] STZ: DOWN(D:2) TL:False Ret:N/A Correct:None
+[START 72/338] CRWD 2024Q4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 67/338] CPRT: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 73/338] MCHP 2018Q3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 69/338] ADM: UP(D:7) TL:False Ret:N/A Correct:None
+[START 74/338] PWR 2018Q3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 70/338] BA: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 75/338] ZTS 2021Q4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 73/338] MCHP: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 76/338] CAT 2024Q2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 71/338] APD: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 77/338] XOM 2021Q2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 72/338] CRWD: UP(D:7) TL:True Ret:N/A Correct:None
+[START 78/338] GPC 2018Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 74/338] PWR: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 79/338] WEC 2020Q4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 75/338] ZTS: UP(D:6) TL:False Ret:N/A Correct:None
+[START 80/338] META 2022Q4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 76/338] CAT: UP(D:6) TL:False Ret:N/A Correct:None
+[START 81/338] EQR 2023Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 77/338] XOM: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 82/338] SBUX 2021Q1
+[DONE 79/338] WEC: UP(D:6) TL:False Ret:N/A Correct:None
+[START 83/338] WTW 2018Q3
+[DONE 78/338] GPC: UP(D:7) TL:False Ret:N/A Correct:None
+[START 84/338] XYL 2023Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 80/338] META: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 85/338] CSCO 2020Q1
+[DEBUG] CompareWithPeers bucket size before helper: 10
+[DEBUG] CompareWithPeers bucket size after helper: 10
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 81/338] EQR: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 86/338] ATO 2020Q1
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 82/338] SBUX: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 87/338] MPWR 2022Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 84/338] XYL: UP(D:6) TL:False Ret:N/A Correct:None
+[START 88/338] AES 2019Q1
+[DONE 83/338] WTW: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 89/338] HRL 2024Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 85/338] CSCO: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 90/338] NI 2017Q1
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 86/338] ATO: UP(D:6) TL:False Ret:N/A Correct:None
+[START 91/338] LKQ 2024Q3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 89/338] HRL: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 92/338] DLTR 2018Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 87/338] MPWR: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 93/338] PCG 2025Q1
+[DONE 88/338] AES: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 94/338] CMS 2017Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 90/338] NI: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 95/338] WAT 2017Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 91/338] LKQ: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 96/338] SLB 2017Q4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 93/338] PCG: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 97/338] ORCL 2023Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 92/338] DLTR: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 98/338] D 2024Q1
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DONE 94/338] CMS: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 99/338] ALB 2017Q2
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 95/338] WAT: UP(D:4) TL:False Ret:N/A Correct:None
+[START 100/338] WFC 2023Q4
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 96/338] SLB: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 101/338] VRTX 2019Q2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 97/338] ORCL: UP(D:7) TL:False Ret:N/A Correct:None
+[START 102/338] GLW 2024Q4
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 98/338] D: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 103/338] APA 2021Q3
+[DONE 99/338] ALB: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 104/338] ORLY 2023Q2
+[DONE 100/338] WFC: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 105/338] WDC 2018Q1
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 101/338] VRTX: UP(D:7) TL:False Ret:N/A Correct:None
+[START 106/338] KEYS 2020Q2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 102/338] GLW: UP(D:6) TL:False Ret:N/A Correct:None
+[START 107/338] GNRC 2024Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 103/338] APA: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 108/338] BLK 2024Q3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 104/338] ORLY: UP(D:6) TL:False Ret:N/A Correct:None
+[START 109/338] PNR 2022Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 105/338] WDC: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 110/338] FTV 2020Q2
+[DONE 106/338] KEYS: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 111/338] TER 2021Q4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 107/338] GNRC: UP(D:7) TL:False Ret:N/A Correct:None
+[START 112/338] CF 2017Q1
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 108/338] BLK: UP(D:7) TL:True Ret:N/A Correct:None
+[START 113/338] DTE 2022Q3
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 6
+[DONE 110/338] FTV: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 114/338] REGN 2019Q4
+[DONE 109/338] PNR: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 115/338] AVB 2023Q3
+[DEBUG] CompareWithPeers bucket size after helper: 6
+[DONE 111/338] TER: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 116/338] KMB 2018Q4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 112/338] CF: UP(D:6) TL:False Ret:N/A Correct:None
+[START 117/338] AVGO 2020Q1
+[DONE 113/338] DTE: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 118/338] MA 2020Q2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 116/338] KMB: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 119/338] RCL 2021Q2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 117/338] AVGO: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 120/338] VRTX 2019Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 115/338] AVB: UP(D:7) TL:True Ret:N/A Correct:None
+[START 121/338] IEX 2024Q1
+[DONE 118/338] MA: UP(D:6) TL:False Ret:N/A Correct:None
+[START 122/338] MMM 2025Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 114/338] REGN: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 123/338] F 2021Q1
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 119/338] RCL: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 124/338] AME 2020Q4
+[DONE 120/338] VRTX: UP(D:7) TL:True Ret:N/A Correct:None
+[START 125/338] O 2020Q1
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 121/338] IEX: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 126/338] LLY 2024Q2
+[DONE 122/338] MMM: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 127/338] WFC 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 123/338] F: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 128/338] MS 2017Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 124/338] AME: UP(D:6) TL:False Ret:N/A Correct:None
+[START 129/338] LW 2019Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 125/338] O: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 130/338] NEE 2018Q4
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 127/338] WFC: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 131/338] CAH 2017Q1
+[DONE 126/338] LLY: UP(D:7) TL:True Ret:N/A Correct:None
+[START 132/338] CSCO 2017Q3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 129/338] LW: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 133/338] UAL 2018Q4
+[DONE 128/338] MS: UP(D:6) TL:False Ret:N/A Correct:None
+[START 134/338] DAL 2025Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 130/338] NEE: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 135/338] BR 2021Q1
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 132/338] CSCO: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 136/338] GM 2021Q2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 131/338] CAH: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 137/338] ANET 2020Q3
+[DONE 133/338] UAL: UP(D:7) TL:True Ret:N/A Correct:None
+[START 138/338] MCD 2022Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 134/338] DAL: UP(D:6) TL:False Ret:N/A Correct:None
+[START 139/338] LNT 2018Q2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 135/338] BR: UP(D:6) TL:False Ret:N/A Correct:None
+[START 140/338] ORCL 2018Q3
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 137/338] ANET: UP(D:7) TL:True Ret:N/A Correct:None
+[START 141/338] DDOG 2021Q2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 136/338] GM: UP(D:6) TL:False Ret:N/A Correct:None
+[START 142/338] ABT 2020Q1
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 138/338] MCD: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 143/338] ON 2025Q2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 139/338] LNT: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 144/338] CI 2021Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 140/338] ORCL: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 145/338] CFG 2019Q1
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 141/338] DDOG: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 146/338] ADM 2024Q3
+[DONE 142/338] ABT: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 147/338] AEE 2022Q2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 143/338] ON: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 148/338] SYF 2024Q3
+[DONE 144/338] CI: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 149/338] SYF 2023Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 145/338] CFG: UP(D:6) TL:False Ret:N/A Correct:None
+[START 150/338] BIIB 2022Q2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 147/338] AEE: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 151/338] CTSH 2022Q2
+[DONE 146/338] ADM: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 152/338] ETR 2023Q3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 148/338] SYF: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 153/338] PM 2022Q2
+[DONE 149/338] SYF: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 154/338] TEL 2018Q4
+[DONE 150/338] BIIB: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 155/338] LRCX 2018Q1
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 151/338] CTSH: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 156/338] IBM 2024Q2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 152/338] ETR: UP(D:7) TL:False Ret:N/A Correct:None
+[START 157/338] PANW 2020Q4
+[DONE 153/338] PM: UP(D:6) TL:False Ret:N/A Correct:None
+[START 158/338] UAL 2025Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 154/338] TEL: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 159/338] BEN 2023Q4
+[DONE 155/338] LRCX: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 160/338] AVY 2024Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 156/338] IBM: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 161/338] PH 2017Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 157/338] PANW: UP(D:6) TL:False Ret:N/A Correct:None
+[START 162/338] PEP 2017Q3
+[DONE 158/338] UAL: UP(D:6) TL:False Ret:N/A Correct:None
+[START 163/338] MOH 2018Q1
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 159/338] BEN: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 164/338] SWK 2024Q2
+[DONE 160/338] AVY: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 165/338] F 2019Q1
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 161/338] PH: UP(D:7) TL:False Ret:N/A Correct:None
+[START 166/338] HCA 2022Q4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 162/338] PEP: UP(D:6) TL:False Ret:N/A Correct:None
+[START 167/338] KIM 2022Q1
+[DONE 163/338] MOH: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 168/338] IVZ 2018Q1
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 164/338] SWK: UP(D:7) TL:False Ret:N/A Correct:None
+[START 169/338] J 2020Q2
+[DONE 165/338] F: UP(D:4) TL:False Ret:N/A Correct:None
+[START 170/338] DIS 2021Q1
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 166/338] HCA: UP(D:6) TL:False Ret:N/A Correct:None
+[START 171/338] CPAY 2022Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 168/338] IVZ: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 172/338] SPGI 2017Q2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 167/338] KIM: UP(D:8) TL:True Ret:N/A Correct:None
+[START 173/338] JPM 2023Q1
+[DONE 169/338] J: UP(D:6) TL:False Ret:N/A Correct:None
+[START 174/338] BXP 2018Q3
+[DONE 170/338] DIS: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 175/338] HAS 2023Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 171/338] CPAY: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 176/338] GDDY 2017Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 172/338] SPGI: UP(D:6) TL:False Ret:N/A Correct:None
+[START 177/338] HON 2018Q4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 173/338] JPM: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 178/338] LDOS 2023Q2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 174/338] BXP: UP(D:7) TL:True Ret:N/A Correct:None
+[START 179/338] OKE 2018Q2
+[DONE 175/338] HAS: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 180/338] MSCI 2023Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 176/338] GDDY: UP(D:6) TL:False Ret:N/A Correct:None
+[START 181/338] MPWR 2020Q1
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 177/338] HON: UP(D:6) TL:True Ret:N/A Correct:None
+[START 182/338] RTX 2023Q4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 178/338] LDOS: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 183/338] CNP 2017Q1
+[DONE 179/338] OKE: UP(D:7) TL:False Ret:N/A Correct:None
+[START 184/338] EFX 2021Q4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 180/338] MSCI: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 185/338] EFX 2024Q3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 181/338] MPWR: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 186/338] WMT 2021Q4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 184/338] EFX: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 187/338] SCHW 2019Q4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 183/338] CNP: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 188/338] CLX 2021Q3
+[DONE 182/338] RTX: UP(D:6) TL:False Ret:N/A Correct:None
+[START 189/338] ADP 2019Q4
+[DONE 185/338] EFX: UP(D:7) TL:False Ret:N/A Correct:None
+[START 190/338] NWSA 2019Q1
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 186/338] WMT: UP(D:6) TL:False Ret:N/A Correct:None
+[START 191/338] COR 2023Q2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 187/338] SCHW: UP(D:6) TL:False Ret:N/A Correct:None
+[START 192/338] ES 2019Q4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 188/338] CLX: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 193/338] PTC 2023Q3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 190/338] NWSA: UP(D:6) TL:False Ret:N/A Correct:None
+[START 194/338] GL 2018Q3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 189/338] ADP: UP(D:6) TL:False Ret:N/A Correct:None
+[START 195/338] NEE 2022Q3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 191/338] COR: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 196/338] UHS 2017Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 193/338] PTC: UP(D:6) TL:False Ret:N/A Correct:None
+[START 197/338] HWM 2020Q2
+[DONE 192/338] ES: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 198/338] AME 2018Q4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 194/338] GL: UP(D:6) TL:False Ret:N/A Correct:None
+[START 199/338] RCL 2018Q1
+[DONE 195/338] NEE: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 200/338] DUK 2018Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 196/338] UHS: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 201/338] DECK 2018Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 197/338] HWM: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 202/338] HUM 2021Q1
+[DONE 198/338] AME: UP(D:6) TL:False Ret:N/A Correct:None
+[START 203/338] UPS 2018Q1
+[DONE 200/338] DUK: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 204/338] O 2022Q3
+[DONE 199/338] RCL: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 205/338] SMCI 2019Q4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 201/338] DECK: UP(D:6) TL:False Ret:N/A Correct:None
+[START 206/338] IBM 2020Q4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 202/338] HUM: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 207/338] CDNS 2018Q3
+[DONE 205/338] SMCI: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 208/338] DRI 2022Q4
+[DONE 204/338] O: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 209/338] TGT 2023Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 206/338] IBM: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 210/338] JPM 2022Q4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DONE 203/338] UPS: UP(D:7) TL:True Ret:N/A Correct:None
+[START 211/338] GS 2025Q1
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 207/338] CDNS: UP(D:8) TL:True Ret:N/A Correct:None
+[START 212/338] EMR 2021Q1
+[DONE 209/338] TGT: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 213/338] GILD 2019Q3
+[DONE 208/338] DRI: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 214/338] SHW 2018Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 210/338] JPM: UP(D:6) TL:False Ret:N/A Correct:None
+[START 215/338] GE 2022Q3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 211/338] GS: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 216/338] DRI 2025Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 212/338] EMR: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 217/338] DHI 2025Q1
+[DONE 213/338] GILD: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 218/338] NWS 2024Q1
+[DONE 214/338] SHW: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 219/338] JKHY 2025Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 215/338] GE: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 220/338] DOW 2022Q3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 216/338] DRI: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 221/338] EFX 2022Q2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 217/338] DHI: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 222/338] BX 2017Q3
+[DONE 218/338] NWS: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 223/338] RVTY 2020Q1
+[DONE 219/338] JKHY: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 224/338] KLAC 2020Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 220/338] DOW: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 225/338] ATO 2020Q4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 221/338] EFX: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 226/338] NI 2019Q2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 223/338] RVTY: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 227/338] DHI 2021Q3
+[DONE 222/338] BX: UP(D:6) TL:True Ret:N/A Correct:None
+[START 228/338] PKG 2020Q3
+[DONE 224/338] KLAC: UP(D:6) TL:False Ret:N/A Correct:None
+[START 229/338] CCI 2025Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 225/338] ATO: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 230/338] TGT 2017Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 226/338] NI: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 231/338] RVTY 2019Q1
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 227/338] DHI: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 232/338] TDY 2024Q1
+[DONE 228/338] PKG: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 233/338] ACN 2021Q4
+[DONE 229/338] CCI: UP(D:6) TL:False Ret:N/A Correct:None
+[START 234/338] DPZ 2018Q4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 230/338] TGT: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 235/338] PWR 2024Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 231/338] RVTY: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 236/338] PGR 2020Q3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 232/338] TDY: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 237/338] JCI 2025Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 234/338] DPZ: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 238/338] TRV 2023Q2
+[DONE 233/338] ACN: UP(D:7) TL:True Ret:N/A Correct:None
+[START 239/338] URI 2024Q1
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 235/338] PWR: UP(D:6) TL:False Ret:N/A Correct:None
+[START 240/338] KMI 2024Q2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 236/338] PGR: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 241/338] TJX 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 237/338] JCI: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 242/338] NCLH 2019Q1
+[DONE 239/338] URI: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 243/338] MOH 2017Q1
+[DONE 238/338] TRV: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 244/338] HPE 2025Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 241/338] TJX: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 245/338] PKG 2022Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 242/338] NCLH: UP(D:6) TL:False Ret:N/A Correct:None
+[START 246/338] WY 2017Q4
+[DONE 240/338] KMI: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 247/338] DAY 2023Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 243/338] MOH: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 248/338] INTU 2021Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 244/338] HPE: UP(D:6) TL:False Ret:N/A Correct:None
+[START 249/338] BSX 2022Q4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 245/338] PKG: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 250/338] HD 2024Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 246/338] WY: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 251/338] WBD 2024Q1
+[DONE 248/338] INTU: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 252/338] FE 2020Q3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 247/338] DAY: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 253/338] FRT 2021Q3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 249/338] BSX: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 254/338] MS 2024Q2
+[DONE 250/338] HD: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 255/338] ICE 2018Q4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 251/338] WBD: UP(D:6) TL:False Ret:N/A Correct:None
+[START 256/338] CCI 2020Q2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 253/338] FRT: UP(D:7) TL:True Ret:N/A Correct:None
+[START 257/338] POOL 2019Q1
+[DONE 254/338] MS: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 258/338] PCAR 2023Q3
+[DONE 252/338] FE: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 259/338] WSM 2019Q3
+[DONE 255/338] ICE: UP(D:6) TL:False Ret:N/A Correct:None
+[START 260/338] NKE 2017Q1
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 256/338] CCI: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 261/338] GDDY 2017Q1
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 260/338] NKE: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 262/338] FTV 2023Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 258/338] PCAR: UP(D:6) TL:False Ret:N/A Correct:None
+[START 263/338] KMI 2021Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 259/338] WSM: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 264/338] SNA 2025Q3
+[DONE 261/338] GDDY: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 265/338] COR 2022Q4
+[DONE 257/338] POOL: UP(D:6) TL:False Ret:N/A Correct:None
+[START 266/338] NDAQ 2020Q2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 262/338] FTV: UP(D:7) TL:False Ret:N/A Correct:None
+[START 267/338] YUM 2024Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 263/338] KMI: UP(D:7) TL:False Ret:N/A Correct:None
+[START 268/338] FANG 2018Q3
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 264/338] SNA: UP(D:6) TL:False Ret:N/A Correct:None
+[START 269/338] BAX 2019Q3
+[DONE 265/338] COR: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 270/338] WM 2019Q4
+[DONE 266/338] NDAQ: UP(D:7) TL:True Ret:N/A Correct:None
+[START 271/338] GE 2019Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 267/338] YUM: UP(D:6) TL:False Ret:N/A Correct:None
+[START 272/338] AMGN 2021Q2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 268/338] FANG: UP(D:6) TL:False Ret:N/A Correct:None
+[START 273/338] ZBH 2018Q4
+[DONE 271/338] GE: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 274/338] RL 2024Q3
+[DONE 269/338] BAX: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 275/338] NXPI 2023Q3
+[DONE 270/338] WM: UP(D:6) TL:False Ret:N/A Correct:None
+[START 276/338] MNST 2020Q4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 272/338] AMGN: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 277/338] COIN 2024Q4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 273/338] ZBH: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 278/338] PM 2017Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 274/338] RL: DOWN(D:5) TL:False Ret:N/A Correct:None
+[DONE 276/338] MNST: UP(D:6) TL:False Ret:N/A Correct:None
+[START 279/338] ELV 2025Q2
+[START 280/338] AFL 2019Q4
+[DONE 275/338] NXPI: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 281/338] LRCX 2019Q4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 277/338] COIN: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 282/338] AIG 2025Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 278/338] PM: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 283/338] MNST 2019Q1
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 279/338] ELV: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 284/338] TFC 2018Q2
+[DONE 280/338] AFL: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 285/338] IVZ 2020Q3
+[DONE 281/338] LRCX: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 286/338] SPG 2019Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 282/338] AIG: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 287/338] DLR 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 283/338] MNST: UP(D:4) TL:False Ret:N/A Correct:None
+[START 288/338] JPM 2019Q2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 284/338] TFC: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 289/338] GNRC 2024Q2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 285/338] IVZ: UP(D:6) TL:False Ret:N/A Correct:None
+[START 290/338] BF-B 2024Q3
+[DONE 286/338] SPG: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 291/338] AMGN 2020Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 287/338] DLR: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 292/338] ECL 2022Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 288/338] JPM: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 293/338] NOW 2022Q1
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 290/338] BF-B: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 294/338] FDS 2024Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 289/338] GNRC: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 295/338] DVA 2024Q4
+[DONE 291/338] AMGN: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 296/338] ELV 2022Q2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 293/338] NOW: UP(D:8) TL:True Ret:N/A Correct:None
+[START 297/338] AON 2023Q4
+[DONE 292/338] ECL: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 298/338] HAL 2018Q2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 295/338] DVA: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 299/338] DOW 2023Q1
+[DONE 294/338] FDS: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 300/338] DIS 2025Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 296/338] ELV: UP(D:3) TL:False Ret:N/A Correct:None
+[START 301/338] EIX 2022Q2
+[DONE 297/338] AON: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 302/338] AZO 2025Q3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 298/338] HAL: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 303/338] C 2018Q4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 300/338] DIS: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 304/338] TPR 2025Q2
+[DONE 299/338] DOW: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 305/338] JBHT 2020Q3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 301/338] EIX: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 306/338] CSX 2022Q3
+[DONE 302/338] AZO: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 307/338] NWSA 2018Q4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 303/338] C: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 308/338] GRMN 2023Q4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 305/338] JBHT: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 309/338] ANET 2018Q4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 304/338] TPR: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 310/338] KIM 2024Q4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 306/338] CSX: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 311/338] MS 2023Q2
+[DONE 307/338] NWSA: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 312/338] CAH 2020Q4
+[DEBUG] CompareWithPeers bucket size before helper: 1
+[DEBUG] CompareWithPeers bucket size after helper: 1
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 308/338] GRMN: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 313/338] MAA 2021Q3
+[DONE 309/338] ANET: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 314/338] EG 2020Q3
+[DONE 310/338] KIM: UP(D:6) TL:False Ret:N/A Correct:None
+[START 315/338] HPQ 2025Q3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 311/338] MS: UP(D:6) TL:False Ret:N/A Correct:None
+[START 316/338] NCLH 2022Q1
+[DONE 312/338] CAH: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 317/338] GPC 2017Q1
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 313/338] MAA: UP(D:8) TL:False Ret:N/A Correct:None
+[START 318/338] BR 2025Q3
+[DONE 314/338] EG: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 319/338] MMC 2022Q2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 315/338] HPQ: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 320/338] NTAP 2023Q3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 317/338] GPC: UP(D:6) TL:False Ret:N/A Correct:None
+[START 321/338] OTIS 2021Q1
+[DONE 316/338] NCLH: UP(D:6) TL:False Ret:N/A Correct:None
+[START 322/338] APH 2019Q3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 318/338] BR: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 323/338] ETN 2017Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 320/338] NTAP: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 324/338] MO 2021Q3
+[DONE 319/338] MMC: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 325/338] VICI 2019Q4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 321/338] OTIS: UP(D:6) TL:False Ret:N/A Correct:None
+[START 326/338] MAA 2019Q2
+[DONE 322/338] APH: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 327/338] MGM 2020Q2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 323/338] ETN: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 328/338] BMY 2024Q4
+[DONE 324/338] MO: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 329/338] DVA 2022Q2
+[DONE 325/338] VICI: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 330/338] WAT 2020Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 326/338] MAA: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 331/338] AON 2018Q3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 327/338] MGM: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 332/338] PG 2025Q3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 329/338] DVA: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 333/338] BAX 2017Q3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 330/338] WAT: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 334/338] HAS 2020Q2
+[DONE 328/338] BMY: DOWN(D:4) TL:False Ret:N/A Correct:None
+[START 335/338] DELL 2022Q2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 331/338] AON: UP(D:7) TL:True Ret:N/A Correct:None
+[START 336/338] TSN 2019Q4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 332/338] PG: DOWN(D:3) TL:False Ret:N/A Correct:None
+[START 337/338] PGR 2022Q4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 333/338] BAX: DOWN(D:5) TL:False Ret:N/A Correct:None
+[START 338/338] SCHW 2023Q1
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 335/338] DELL: DOWN(D:4) TL:False Ret:N/A Correct:None
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 334/338] HAS: DOWN(D:3) TL:False Ret:N/A Correct:None
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 336/338] TSN: DOWN(D:4) TL:False Ret:N/A Correct:None
+[DONE 337/338] PGR: UP(D:6) TL:False Ret:N/A Correct:None
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 338/338] SCHW: UP(D:6) TL:False Ret:N/A Correct:None
+
+======================================================================
+RERUN SUMMARY
+======================================================================
+Rerun Success: 338/338
+Still Failed: 0/338
+
+Merged results saved to: /Users/garen.lee/Desktop/validation_results_merged_20260103_222755.csv
+Final success rate: 8648/8648 (100.0%)

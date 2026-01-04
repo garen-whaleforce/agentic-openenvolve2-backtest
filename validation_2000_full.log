@@ -1,0 +1,74 @@
+======================================================================
+LOOKAHEAD-FIX VALIDATION v2.0 (Clean Data)
+======================================================================
+Samples: 2000 | Parallel: 10
+LOOKAHEAD_ASSERTIONS: true
+HISTORICAL_EARNINGS_INCLUDE_POST_RETURNS: false
+Started: 2026-01-02 00:55:00
+======================================================================
+🔍 Checking LiteLLM availability...
+✅ LiteLLM is available (provider: litellm)
+
+📂 Loading samples from previous runs...
+Loaded 1951 samples
+Year distribution: {2017: 250, 2018: 250, 2019: 250, 2020: 250, 2021: 250, 2022: 250, 2023: 250, 2024: 201}
+
+🚀 Running 1951 tests with 10 parallel workers...
+[START 1/1951] DLR 2017Q2
+[START 2/1951] YUM 2017Q3
+[START 3/1951] MPWR 2017Q4
+[START 4/1951] CBRE 2017Q3
+[START 5/1951] VTRS 2017Q3
+[START 6/1951] PCG 2017Q4
+[START 7/1951] SNA 2017Q4
+[START 8/1951] FTNT 2017Q4
+[START 9/1951] LEN 2017Q3
+[START 10/1951] XOM 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 5/1951] VTRS: DOWN(D:None) TL:False Ret:15.5% Correct:False
+[START 11/1951] SMCI 2017Q2
+[DONE 1/1951] DLR: DOWN(D:None) TL:False Ret:10.4% Correct:False
+[START 12/1951] WRB 2017Q2
+[DONE 10/1951] XOM: DOWN(D:None) TL:False Ret:-16.8% Correct:True
+[START 13/1951] TTD 2017Q2
+[DONE 8/1951] FTNT: UP(D:None) TL:False Ret:16.4% Correct:True
+[DONE 2/1951] YUM: DOWN(D:None) TL:False Ret:10.8% Correct:False
+[START 14/1951] DHI 2017Q4
+[START 15/1951] MTCH 2017Q4
+[DONE 4/1951] CBRE: UP(D:None) TL:False Ret:12.7% Correct:True
+[START 16/1951] EXPE 2017Q3
+[DONE 9/1951] LEN: UP(D:None) TL:True Ret:10.9% Correct:True
+[START 17/1951] NRG 2017Q4
+[DONE 7/1951] SNA: DOWN(D:None) TL:False Ret:-12.2% Correct:True
+[START 18/1951] GEN 2017Q1
+[DONE 6/1951] PCG: DOWN(D:None) TL:False Ret:12.1% Correct:False
+[START 19/1951] WDAY 2017Q2
+[DONE 3/1951] MPWR: UP(D:None) TL:False Ret:15.4% Correct:True
+[START 20/1951] DD 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0

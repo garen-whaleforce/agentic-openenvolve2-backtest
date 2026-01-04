@@ -1,0 +1,586 @@
+======================================================================
+2024 VALIDATION - 50 SAMPLES (Lookahead Fix v2)
+======================================================================
+Timestamp: 2026-01-02T07:58:39.644888
+LOOKAHEAD_ASSERTIONS: true
+CALL_CACHE_VERSION: v2.1
+
+Fetching 2024 samples (balanced across quarters)...
+Found 50 samples
+Quarter distribution: {4: 12, 1: 13, 3: 12, 2: 13}
+
+Phase 1: Testing with 3 samples...
+----------------------------------------------------------------------
+[1/3] Starting CRM 2024Q4...
+[2/3] Starting DOC 2024Q1...
+[3/3] Starting MKC 2024Q1...
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+
+======================================================================
+PROGRESS [1/3] (33.3%)
+======================================================================
+Elapsed: 1.4 min | ETA: 2.8 min | Rate: 0.7/min
+Success: 1 | Failed: 0
+Overall Accuracy: 100.0% (1/1)
+Long-only: 1 trades | Win Rate: 100.0% (1/1)
+Long Avg Return: 4.85%
+Total Cost: $0.0000
+======================================================================
+[2/3] DOC Q1: OK | UP | Correct=Y | LONG
+[3/3] MKC Q1: OK | DOWN | Correct=N | 
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+
+======================================================================
+PROGRESS [3/3] (100.0%)
+======================================================================
+Elapsed: 2.3 min | ETA: 0.0 min | Rate: 1.3/min
+Success: 3 | Failed: 0
+Overall Accuracy: 66.7% (2/3)
+Long-only: 1 trades | Win Rate: 100.0% (1/1)
+Long Avg Return: 4.85%
+Total Cost: $0.0000
+======================================================================
+[1/3] CRM Q4: OK | DOWN | Correct=Y | 
+
+======================================================================
+PROGRESS [3/3] (100.0%)
+======================================================================
+Elapsed: 2.3 min | ETA: 0.0 min | Rate: 1.3/min
+Success: 3 | Failed: 0
+Overall Accuracy: 66.7% (2/3)
+Long-only: 1 trades | Win Rate: 100.0% (1/1)
+Long Avg Return: 4.85%
+Total Cost: $0.0000
+======================================================================
+
+Test phase passed (3/3 succeeded)
+Proceeding with full run...
+
+Phase 2: Running all 50 samples...
+----------------------------------------------------------------------
+[4/50] Starting TMUS 2024Q3...
+[5/50] Starting CPRT 2024Q2...
+[6/50] Starting GEV 2024Q4...
+[7/50] Starting DVN 2024Q4...
+[8/50] Starting PPL 2024Q3...
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 4
+
+======================================================================
+PROGRESS [4/50] (8.0%)
+======================================================================
+Elapsed: 1.7 min | ETA: 19.2 min | Rate: 2.4/min
+Success: 4 | Failed: 0
+Overall Accuracy: 75.0% (3/4)
+Long-only: 1 trades | Win Rate: 100.0% (1/1)
+Long Avg Return: 4.85%
+Total Cost: $0.0000
+======================================================================
+[8/50] PPL Q3: OK | DOWN | Correct=Y | 
+[9/50] Starting DVN 2024Q2...
+
+======================================================================
+PROGRESS [5/50] (10.0%)
+======================================================================
+Elapsed: 1.7 min | ETA: 15.2 min | Rate: 3.0/min
+Success: 5 | Failed: 0
+Overall Accuracy: 60.0% (3/5)
+Long-only: 1 trades | Win Rate: 100.0% (1/1)
+Long Avg Return: 4.85%
+Total Cost: $0.0000
+======================================================================
+[5/50] CPRT Q2: OK | DOWN | Correct=N | 
+[10/50] Starting CCL 2024Q3...
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[4/50] TMUS Q3: OK | UP | Correct=Y | 
+[11/50] Starting EL 2024Q1...
+[6/50] GEV Q4: OK | DOWN | Correct=Y | 
+[12/50] Starting KO 2024Q4...
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+
+======================================================================
+PROGRESS [8/50] (16.0%)
+======================================================================
+Elapsed: 3.3 min | ETA: 17.1 min | Rate: 2.5/min
+Success: 8 | Failed: 0
+Overall Accuracy: 62.5% (5/8)
+Long-only: 1 trades | Win Rate: 100.0% (1/1)
+Long Avg Return: 4.85%
+Total Cost: $0.0000
+======================================================================
+[11/50] EL Q1: OK | DOWN | Correct=N | 
+[13/50] Starting AFL 2024Q3...
+[7/50] DVN Q4: OK | UP | Correct=Y | LONG
+[14/50] Starting PEP 2024Q4...
+
+======================================================================
+PROGRESS [10/50] (20.0%)
+======================================================================
+Elapsed: 3.8 min | ETA: 15.2 min | Rate: 2.6/min
+Success: 10 | Failed: 0
+Overall Accuracy: 60.0% (6/10)
+Long-only: 2 trades | Win Rate: 100.0% (2/2)
+Long Avg Return: 6.78%
+Total Cost: $0.0000
+======================================================================
+[12/50] KO Q4: OK | DOWN | Correct=N | 
+[15/50] Starting F 2024Q3...
+[10/50] CCL Q3: OK | UP | Correct=Y | 
+[16/50] Starting DELL 2024Q1...
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+
+======================================================================
+PROGRESS [12/50] (24.0%)
+======================================================================
+Elapsed: 4.5 min | ETA: 14.3 min | Rate: 2.7/min
+Success: 12 | Failed: 0
+Overall Accuracy: 66.7% (8/12)
+Long-only: 2 trades | Win Rate: 100.0% (2/2)
+Long Avg Return: 6.78%
+Total Cost: $0.0000
+======================================================================
+[9/50] DVN Q2: OK | DOWN | Correct=Y | 
+[17/50] Starting TPR 2024Q3...
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[14/50] PEP Q4: OK | DOWN | Correct=Y | 
+[18/50] Starting IVZ 2024Q2...
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+
+======================================================================
+PROGRESS [14/50] (28.0%)
+======================================================================
+Elapsed: 5.3 min | ETA: 13.7 min | Rate: 2.6/min
+Success: 14 | Failed: 0
+Overall Accuracy: 64.3% (9/14)
+Long-only: 2 trades | Win Rate: 100.0% (2/2)
+Long Avg Return: 6.78%
+Total Cost: $0.0000
+======================================================================
+[16/50] DELL Q1: OK | DOWN | Correct=N | 
+[19/50] Starting FTV 2024Q2...
+
+======================================================================
+PROGRESS [15/50] (30.0%)
+======================================================================
+Elapsed: 5.5 min | ETA: 12.8 min | Rate: 2.7/min
+Success: 15 | Failed: 0
+Overall Accuracy: 66.7% (10/15)
+Long-only: 2 trades | Win Rate: 100.0% (2/2)
+Long Avg Return: 6.78%
+Total Cost: $0.0000
+======================================================================
+[13/50] AFL Q3: OK | DOWN | Correct=Y | 
+[20/50] Starting CFG 2024Q1...
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+
+======================================================================
+PROGRESS [16/50] (32.0%)
+======================================================================
+Elapsed: 6.2 min | ETA: 13.1 min | Rate: 2.6/min
+Success: 16 | Failed: 0
+Overall Accuracy: 62.5% (10/16)
+Long-only: 2 trades | Win Rate: 100.0% (2/2)
+Long Avg Return: 6.78%
+Total Cost: $0.0000
+======================================================================
+[17/50] TPR Q3: OK | DOWN | Correct=N | 
+[21/50] Starting ORLY 2024Q4...
+[18/50] IVZ Q2: OK | UP | Correct=N | 
+[22/50] Starting RVTY 2024Q1...
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5
+
+======================================================================
+PROGRESS [18/50] (36.0%)
+======================================================================
+Elapsed: 7.2 min | ETA: 12.8 min | Rate: 2.5/min
+Success: 18 | Failed: 0
+Overall Accuracy: 61.1% (11/18)
+Long-only: 2 trades | Win Rate: 100.0% (2/2)
+Long Avg Return: 6.78%
+Total Cost: $0.0000
+======================================================================
+[19/50] FTV Q2: OK | DOWN | Correct=Y | 
+[23/50] Starting VLTO 2024Q2...
+[15/50] F Q3: OK | DOWN | Correct=Y | 
+[24/50] Starting PNR 2024Q4...
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+
+======================================================================
+PROGRESS [20/50] (40.0%)
+======================================================================
+Elapsed: 8.2 min | ETA: 12.3 min | Rate: 2.4/min
+Success: 20 | Failed: 0
+Overall Accuracy: 60.0% (12/20)
+Long-only: 2 trades | Win Rate: 100.0% (2/2)
+Long Avg Return: 6.78%
+Total Cost: $0.0000
+======================================================================
+[22/50] RVTY Q1: OK | DOWN | Correct=N | 
+[25/50] Starting ANET 2024Q2...
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+
+======================================================================
+PROGRESS [21/50] (42.0%)
+======================================================================
+Elapsed: 9.3 min | ETA: 12.8 min | Rate: 2.3/min
+Success: 21 | Failed: 0
+Overall Accuracy: 61.9% (13/21)
+Long-only: 3 trades | Win Rate: 100.0% (3/3)
+Long Avg Return: 7.83%
+Total Cost: $0.0000
+======================================================================
+[23/50] VLTO Q2: OK | UP | Correct=Y | LONG
+[26/50] Starting EIX 2024Q3...
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+
+======================================================================
+PROGRESS [22/50] (44.0%)
+======================================================================
+Elapsed: 9.8 min | ETA: 12.4 min | Rate: 2.3/min
+Success: 22 | Failed: 0
+Overall Accuracy: 63.6% (14/22)
+Long-only: 3 trades | Win Rate: 100.0% (3/3)
+Long Avg Return: 7.83%
+Total Cost: $0.0000
+======================================================================
+[20/50] CFG Q1: OK | UP | Correct=Y | 
+[27/50] Starting CB 2024Q1...
+[25/50] ANET Q2: OK | UP | Correct=Y | LONG
+[28/50] Starting PWR 2024Q4...
+[24/50] PNR Q4: OK | DOWN | Correct=Y | 
+[29/50] Starting WAB 2024Q3...
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+
+======================================================================
+PROGRESS [25/50] (50.0%)
+======================================================================
+Elapsed: 10.8 min | ETA: 10.8 min | Rate: 2.3/min
+Success: 25 | Failed: 0
+Overall Accuracy: 64.0% (16/25)
+Long-only: 4 trades | Win Rate: 100.0% (4/4)
+Long Avg Return: 9.40%
+Total Cost: $0.0000
+======================================================================
+[26/50] EIX Q3: OK | UP | Correct=N | 
+[30/50] Starting STLD 2024Q2...
+[28/50] PWR Q4: OK | DOWN | Correct=Y | 
+[31/50] Starting KKR 2024Q2...
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+
+======================================================================
+PROGRESS [27/50] (54.0%)
+======================================================================
+Elapsed: 11.5 min | ETA: 9.8 min | Rate: 2.4/min
+Success: 27 | Failed: 0
+Overall Accuracy: 63.0% (17/27)
+Long-only: 4 trades | Win Rate: 100.0% (4/4)
+Long Avg Return: 9.40%
+Total Cost: $0.0000
+======================================================================
+[27/50] CB Q1: OK | DOWN | Correct=N | 
+[32/50] Starting MET 2024Q2...
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[29/50] WAB Q3: OK | DOWN | Correct=N | 
+[33/50] Starting GM 2024Q3...
+
+======================================================================
+PROGRESS [29/50] (58.0%)
+======================================================================
+Elapsed: 12.1 min | ETA: 8.8 min | Rate: 2.4/min
+Success: 29 | Failed: 0
+Overall Accuracy: 62.1% (18/29)
+Long-only: 4 trades | Win Rate: 100.0% (4/4)
+Long Avg Return: 9.40%
+Total Cost: $0.0000
+======================================================================
+[30/50] STLD Q2: OK | DOWN | Correct=Y | 
+[34/50] Starting HPE 2024Q4...
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+
+======================================================================
+PROGRESS [30/50] (60.0%)
+======================================================================
+Elapsed: 13.0 min | ETA: 8.7 min | Rate: 2.3/min
+Success: 30 | Failed: 0
+Overall Accuracy: 63.3% (19/30)
+Long-only: 4 trades | Win Rate: 100.0% (4/4)
+Long Avg Return: 9.40%
+Total Cost: $0.0000
+======================================================================
+[32/50] MET Q2: OK | DOWN | Correct=Y | 
+[35/50] Starting LLY 2024Q2...
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[21/50] ORLY Q4: OK | DOWN | Correct=Y | 
+[36/50] Starting WTW 2024Q4...
+[33/50] GM Q3: OK | UP | Correct=Y | LONG
+[37/50] Starting BA 2024Q1...
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+
+======================================================================
+PROGRESS [33/50] (66.0%)
+======================================================================
+Elapsed: 14.0 min | ETA: 7.2 min | Rate: 2.4/min
+Success: 33 | Failed: 0
+Overall Accuracy: 63.6% (21/33)
+Long-only: 5 trades | Win Rate: 100.0% (5/5)
+Long Avg Return: 9.33%
+Total Cost: $0.0000
+======================================================================
+[34/50] HPE Q4: OK | DOWN | Correct=N | 
+[38/50] Starting TKO 2024Q3...
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+
+======================================================================
+PROGRESS [34/50] (68.0%)
+======================================================================
+Elapsed: 14.7 min | ETA: 6.9 min | Rate: 2.3/min
+Success: 34 | Failed: 0
+Overall Accuracy: 64.7% (22/34)
+Long-only: 6 trades | Win Rate: 100.0% (6/6)
+Long Avg Return: 11.00%
+Total Cost: $0.0000
+======================================================================
+[35/50] LLY Q2: OK | UP | Correct=Y | LONG
+[39/50] Starting CRL 2024Q2...
+
+======================================================================
+PROGRESS [35/50] (70.0%)
+======================================================================
+Elapsed: 14.9 min | ETA: 6.4 min | Rate: 2.3/min
+Success: 35 | Failed: 0
+Overall Accuracy: 62.9% (22/35)
+Long-only: 6 trades | Win Rate: 100.0% (6/6)
+Long Avg Return: 11.00%
+Total Cost: $0.0000
+======================================================================
+[37/50] BA Q1: OK | DOWN | Correct=N | 
+[40/50] Starting JBHT 2024Q3...
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[38/50] TKO Q3: OK | UP | Correct=Y | 
+[41/50] Starting WMB 2024Q1...
+[31/50] KKR Q2: OK | DOWN | Correct=N | 
+[42/50] Starting TSLA 2024Q1...
+[36/50] WTW Q4: OK | DOWN | Correct=N | 
+[43/50] Starting REGN 2024Q4...
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+
+======================================================================
+PROGRESS [39/50] (78.0%)
+======================================================================
+Elapsed: 16.0 min | ETA: 4.5 min | Rate: 2.4/min
+Success: 39 | Failed: 0
+Overall Accuracy: 59.0% (23/39)
+Long-only: 6 trades | Win Rate: 100.0% (6/6)
+Long Avg Return: 11.00%
+Total Cost: $0.0000
+======================================================================
+[40/50] JBHT Q3: OK | DOWN | Correct=N | 
+[44/50] Starting DELL 2024Q2...
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+
+======================================================================
+PROGRESS [40/50] (80.0%)
+======================================================================
+Elapsed: 16.5 min | ETA: 4.1 min | Rate: 2.4/min
+Success: 40 | Failed: 0
+Overall Accuracy: 60.0% (24/40)
+Long-only: 6 trades | Win Rate: 100.0% (6/6)
+Long Avg Return: 11.00%
+Total Cost: $0.0000
+======================================================================
+[41/50] WMB Q1: OK | UP | Correct=Y | 
+[45/50] Starting EXR 2024Q4...
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+
+======================================================================
+PROGRESS [41/50] (82.0%)
+======================================================================
+Elapsed: 17.4 min | ETA: 3.8 min | Rate: 2.4/min
+Success: 41 | Failed: 0
+Overall Accuracy: 58.5% (24/41)
+Long-only: 6 trades | Win Rate: 100.0% (6/6)
+Long Avg Return: 11.00%
+Total Cost: $0.0000
+======================================================================
+[42/50] TSLA Q1: OK | DOWN | Correct=N | 
+[46/50] Starting GEV 2024Q3...
+[43/50] REGN Q4: OK | UP | Correct=N | 
+[47/50] Starting BK 2024Q1...
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 3
+
+======================================================================
+PROGRESS [43/50] (86.0%)
+======================================================================
+Elapsed: 18.4 min | ETA: 3.0 min | Rate: 2.3/min
+Success: 43 | Failed: 0
+Overall Accuracy: 58.1% (25/43)
+Long-only: 6 trades | Win Rate: 100.0% (6/6)
+Long Avg Return: 11.00%
+Total Cost: $0.0000
+======================================================================
+[45/50] EXR Q4: OK | DOWN | Correct=Y | 
+[48/50] Starting LYB 2024Q1...
+[44/50] DELL Q2: OK | DOWN | Correct=N | 
+[49/50] Starting ES 2024Q1...
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+
+======================================================================
+PROGRESS [45/50] (90.0%)
+======================================================================
+Elapsed: 18.9 min | ETA: 2.1 min | Rate: 2.4/min
+Success: 45 | Failed: 0
+Overall Accuracy: 57.8% (26/45)
+Long-only: 6 trades | Win Rate: 100.0% (6/6)
+Long Avg Return: 11.00%
+Total Cost: $0.0000
+======================================================================
+[46/50] GEV Q3: OK | UP | Correct=Y | 
+[50/50] Starting GPC 2024Q2...
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[47/50] BK Q1: OK | DOWN | Correct=N | 
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+
+======================================================================
+PROGRESS [47/50] (94.0%)
+======================================================================
+Elapsed: 20.0 min | ETA: 1.3 min | Rate: 2.3/min
+Success: 47 | Failed: 0
+Overall Accuracy: 55.3% (26/47)
+Long-only: 6 trades | Win Rate: 100.0% (6/6)
+Long Avg Return: 11.00%
+Total Cost: $0.0000
+======================================================================
+[49/50] ES Q1: OK | UP | Correct=N | 
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+
+======================================================================
+PROGRESS [48/50] (96.0%)
+======================================================================
+Elapsed: 21.0 min | ETA: 0.9 min | Rate: 2.3/min
+Success: 48 | Failed: 0
+Overall Accuracy: 54.2% (26/48)
+Long-only: 6 trades | Win Rate: 100.0% (6/6)
+Long Avg Return: 11.00%
+Total Cost: $0.0000
+======================================================================
+[48/50] LYB Q1: OK | UP | Correct=N | 
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+
+======================================================================
+PROGRESS [49/50] (98.0%)
+======================================================================
+Elapsed: 23.2 min | ETA: 0.5 min | Rate: 2.1/min
+Success: 49 | Failed: 0
+Overall Accuracy: 53.1% (26/49)
+Long-only: 6 trades | Win Rate: 100.0% (6/6)
+Long Avg Return: 11.00%
+Total Cost: $0.0000
+======================================================================
+[50/50] GPC Q2: OK | DOWN | Correct=N | 
+[DEBUG] CompareWithPeers bucket size after helper: 4
+
+======================================================================
+PROGRESS [50/50] (100.0%)
+======================================================================
+Elapsed: 23.5 min | ETA: 0.0 min | Rate: 2.1/min
+Success: 50 | Failed: 0
+Overall Accuracy: 54.0% (27/50)
+Long-only: 6 trades | Win Rate: 100.0% (6/6)
+Long Avg Return: 11.00%
+Total Cost: $0.0000
+======================================================================
+[39/50] CRL Q2: OK | DOWN | Correct=Y | 
+
+======================================================================
+PROGRESS [50/50] (100.0%)
+======================================================================
+Elapsed: 23.5 min | ETA: 0.0 min | Rate: 2.1/min
+Success: 50 | Failed: 0
+Overall Accuracy: 54.0% (27/50)
+Long-only: 6 trades | Win Rate: 100.0% (6/6)
+Long Avg Return: 11.00%
+Total Cost: $0.0000
+======================================================================
+
+Results saved to: validation_2024_50_20260102_082430.csv
+
+======================================================================
+FINAL SUMMARY
+======================================================================
+Total Samples: 50
+Successful: 50
+Overall Accuracy: 27/50 (54.0%)
+Long Trades: 6
+Long Win Rate: 6/6 (100.0%)
+Long Avg Return: 11.00%
+  D7_CORE: 6 trades, 6 wins (100.0%)
+  D6_STRICT: 0 trades
+======================================================================

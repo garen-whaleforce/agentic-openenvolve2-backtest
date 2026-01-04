@@ -1,0 +1,168 @@
+======================================================================
+Long-only Strategy Validation Test (PARALLEL MODE)
+Samples: 50, Years: 2017-2018, Parallel Workers: 4
+Started: 2026-01-01 23:34:40
+======================================================================
+🔍 Checking LiteLLM availability...
+✅ LiteLLM is available (provider: litellm)
+
+Loaded 50 samples
+Year distribution: {2017: 25, 2018: 25}
+Category distribution: {'GAINER': 25, 'LOSER': 25}
+Sector distribution (top 5): {'Consumer Cyclical': 9, 'Energy': 7, 'Technology': 6, 'Healthcare': 6, 'Industrials': 5}
+
+Running 50 tests with 4 parallel workers...
+Progress reports every 25 samples
+
+[START 1/50] CMG 2018Q1 (GAINER)
+[START 2/50] FFIV 2018Q2 (GAINER)
+[START 3/50] DPZ 2017Q3 (LOSER)
+[START 4/50] COST 2017Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 1/50] COST: DOWN(D:4) TL:False Ret:-14.7% Correct:True
+[START 5/50] UPS 2017Q4 (LOSER)
+[DONE 2/50] FFIV: UP(D:6) TL:False Ret:12.6% Correct:True
+[START 6/50] DHR 2018Q4 (GAINER)
+[DONE 3/50] CMG: UP(D:7) TL:True Ret:33.6% Correct:True
+[START 7/50] STX 2017Q2 (GAINER)
+[DONE 4/50] DPZ: DOWN(D:4) TL:False Ret:-15.2% Correct:True
+[START 8/50] ULTA 2018Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 5/50] DHR: DOWN(D:4) TL:False Ret:20.8% Correct:False
+[START 9/50] VLO 2018Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 6/50] STX: UP(D:6) TL:False Ret:32.3% Correct:True
+[START 10/50] WELL 2018Q1 (GAINER)
+[DONE 7/50] UPS: DOWN(D:4) TL:False Ret:-12.9% Correct:True
+[START 11/50] SYF 2018Q3 (LOSER)
+[DONE 8/50] ULTA: UP(D:7) TL:False Ret:15.3% Correct:True
+[START 12/50] CHTR 2018Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 9/50] VLO: DOWN(D:4) TL:False Ret:-15.4% Correct:True
+[START 13/50] MCD 2017Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 10/50] SYF: DOWN(D:4) TL:False Ret:-12.9% Correct:True
+[START 14/50] TSLA 2017Q3 (GAINER)
+[DONE 11/50] WELL: UP(D:4) TL:False Ret:14.8% Correct:True
+[START 15/50] STX 2018Q4 (LOSER)
+[DONE 12/50] MCD: DOWN(D:4) TL:False Ret:-11.0% Correct:True
+[START 16/50] CME 2017Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 13/50] CHTR: DOWN(D:4) TL:False Ret:22.8% Correct:False
+[START 17/50] FANG 2017Q1 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 14/50] TSLA: DOWN(D:4) TL:False Ret:13.2% Correct:False
+[START 18/50] POOL 2017Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 15/50] STX: UP(D:7) TL:False Ret:-10.4% Correct:False
+[START 19/50] COR 2017Q1 (GAINER)
+[DONE 16/50] CME: UP(D:6) TL:True Ret:14.2% Correct:True
+[START 20/50] ORCL 2018Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 17/50] FANG: UP(D:7) TL:False Ret:-12.7% Correct:False
+[START 21/50] ZBRA 2018Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 18/50] POOL: DOWN(D:3) TL:False Ret:-15.4% Correct:True
+[START 22/50] BKR 2017Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 19/50] COR: UP(D:6) TL:True Ret:13.4% Correct:True
+[START 23/50] PHM 2017Q4 (LOSER)
+[DONE 20/50] ORCL: DOWN(D:3) TL:False Ret:-12.4% Correct:True
+[START 24/50] META 2018Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 21/50] ZBRA: DOWN(D:4) TL:False Ret:21.5% Correct:False
+[START 25/50] MKC 2017Q4 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 22/50] BKR: DOWN(D:4) TL:False Ret:-18.2% Correct:True
+[START 26/50] ROST 2018Q3 (LOSER)
+[DONE 23/50] PHM: DOWN(D:4) TL:False Ret:-11.6% Correct:True
+[START 27/50] GEN 2018Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 24/50] META: DOWN(D:2) TL:False Ret:-25.0% Correct:True
+[START 28/50] APTV 2018Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+
+======================================================================
+📊 PROGRESS REPORT [25/50] (50.0%)
+======================================================================
+⏱️  Elapsed: 10.0 min | ETA: 10.0 min | Avg: 23.9s/sample
+✅ Success: 25 | ❌ Failed: 0
+🎯 Overall Accuracy: 76.0% (19/25)
+📈 Long-only: 3 trades | Win Rate: 100.0% (3/3) | Avg Ret: +20.4%
+💰 Total Cost: $0.1010 | Avg: $0.0040/sample
+======================================================================
+
+[DONE 25/50] GEN: DOWN(D:3) TL:False Ret:-29.8% Correct:True
+[START 29/50] TRGP 2018Q3 (LOSER)
+[DONE 26/50] ROST: DOWN(D:3) TL:False Ret:-10.4% Correct:True
+[START 30/50] LYV 2017Q2 (GAINER)
+[DONE 27/50] MKC: UP(D:6) TL:False Ret:10.4% Correct:True
+[START 31/50] JCI 2018Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 28/50] APTV: UP(D:6) TL:False Ret:21.4% Correct:True
+[START 32/50] IFF 2018Q3 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 29/50] LYV: UP(D:6) TL:False Ret:16.0% Correct:True
+[START 33/50] ODFL 2017Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 30/50] TRGP: UP(D:6) TL:False Ret:-35.6% Correct:False
+[START 34/50] GS 2018Q4 (GAINER)
+[DONE 31/50] JCI: UP(D:6) TL:False Ret:-14.6% Correct:False
+[START 35/50] OKE 2018Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 32/50] IFF: DOWN(D:4) TL:False Ret:-13.8% Correct:True
+[START 36/50] EL 2017Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 33/50] ODFL: UP(D:6) TL:True Ret:17.5% Correct:True
+[START 37/50] HCA 2018Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 34/50] OKE: UP(D:6) TL:False Ret:14.6% Correct:True
+[START 38/50] ALB 2017Q2 (GAINER)

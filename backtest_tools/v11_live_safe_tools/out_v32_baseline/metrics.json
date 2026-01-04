@@ -1,0 +1,24 @@
+{
+  "total_return": 0.916660897654672,
+  "cagr": 0.07632445588413961,
+  "ann_vol": 0.08650503267633851,
+  "sharpe": 0.8936483520140864,
+  "sortino": 0.9714646556921751,
+  "max_drawdown": -0.13162240346364823,
+  "calmar": 0.5798743517490855,
+  "n_trades": 316,
+  "win_rate": 0.6265822784810127,
+  "avg_win": 0.07982628730838805,
+  "avg_loss": -0.06967421962026503,
+  "profit_factor": 1.9224586203858323,
+  "exposure_avg": 0.3879863525988722,
+  "max_leverage": 1.2550493227429946,
+  "stop_loss_triggered": 46,
+  "scheduled_exits": 270,
+  "total_margin_interest": 1818.0747460474927,
+  "regime_trades": {
+    "NORMAL": 278,
+    "RISK_OFF": 38,
+    "STRESS": 0
+  }
+}

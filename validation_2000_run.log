@@ -1,0 +1,282 @@
+======================================================================
+LOOKAHEAD-FIX VALIDATION v2.0 (Clean Data)
+======================================================================
+Samples: 2000 | Parallel: 10
+LOOKAHEAD_ASSERTIONS: true
+HISTORICAL_EARNINGS_INCLUDE_POST_RETURNS: false
+Started: 2026-01-02 00:42:15
+======================================================================
+🔍 Checking LiteLLM availability...
+✅ LiteLLM is available (provider: litellm)
+
+📂 Loading samples from previous runs...
+Loaded 1951 samples
+Year distribution: {2017: 250, 2018: 250, 2019: 250, 2020: 250, 2021: 250, 2022: 250, 2023: 250, 2024: 201}
+
+🚀 Running 1951 tests with 10 parallel workers...
+[START 1/1951] DLR 2017Q2
+[START 2/1951] YUM 2017Q3
+[START 3/1951] MPWR 2017Q4
+[START 4/1951] CBRE 2017Q3
+[START 5/1951] VTRS 2017Q3
+[START 6/1951] PCG 2017Q4
+[START 7/1951] SNA 2017Q4
+[START 8/1951] FTNT 2017Q4
+[START 9/1951] LEN 2017Q3
+[START 10/1951] XOM 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 4/1951] CBRE: UP(D:None) TL:True Ret:12.7% Correct:True
+[START 11/1951] SMCI 2017Q2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 6/1951] PCG: DOWN(D:None) TL:False Ret:12.1% Correct:False
+[START 12/1951] WRB 2017Q2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 7/1951] SNA: DOWN(D:None) TL:False Ret:-12.2% Correct:True
+[START 13/1951] TTD 2017Q2
+[DONE 2/1951] YUM: UP(D:None) TL:False Ret:10.8% Correct:True
+[START 14/1951] DHI 2017Q4
+[DONE 3/1951] MPWR: UP(D:None) TL:True Ret:15.4% Correct:True
+[START 15/1951] MTCH 2017Q4
+[DONE 1/1951] DLR: DOWN(D:None) TL:False Ret:10.4% Correct:False
+[START 16/1951] EXPE 2017Q3
+[DONE 5/1951] VTRS: DOWN(D:None) TL:False Ret:15.5% Correct:False
+[START 17/1951] NRG 2017Q4
+[DONE 9/1951] LEN: DOWN(D:None) TL:False Ret:10.9% Correct:False
+[START 18/1951] GEN 2017Q1
+[DONE 10/1951] XOM: DOWN(D:None) TL:False Ret:-16.8% Correct:True
+[START 19/1951] WDAY 2017Q2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 8/1951] FTNT: UP(D:None) TL:False Ret:16.4% Correct:True
+[START 20/1951] DD 2017Q4
+[DONE 11/1951] SMCI: DOWN(D:None) TL:False Ret:-12.6% Correct:True
+[START 21/1951] OMC 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 12/1951] WRB: DOWN(D:None) TL:False Ret:-13.4% Correct:True
+[START 22/1951] CHRW 2017Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 13/1951] TTD: UP(D:None) TL:False Ret:12.6% Correct:True
+[START 23/1951] SYF 2017Q3
+[DONE 14/1951] DHI: DOWN(D:None) TL:False Ret:10.9% Correct:False
+[START 24/1951] XYZ 2017Q1
+[DONE 19/1951] WDAY: UP(D:None) TL:False Ret:14.3% Correct:True
+[START 25/1951] CCI 2017Q3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 18/1951] GEN: DOWN(D:None) TL:False Ret:18.1% Correct:False
+[START 26/1951] CMG 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 16/1951] EXPE: DOWN(D:None) TL:False Ret:-20.0% Correct:True
+[START 27/1951] LOW 2017Q3
+[DONE 15/1951] MTCH: UP(D:None) TL:True Ret:32.9% Correct:True
+[START 28/1951] MPC 2017Q3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 20/1951] DD: DOWN(D:None) TL:False Ret:-10.1% Correct:True
+[START 29/1951] TRGP 2017Q1
+[DONE 21/1951] OMC: DOWN(D:None) TL:False Ret:-13.9% Correct:True
+[START 30/1951] F 2017Q4
+[DONE 17/1951] NRG: DOWN(D:None) TL:False Ret:16.5% Correct:False
+[START 31/1951] CBOE 2017Q2
+[DONE 22/1951] CHRW: DOWN(D:None) TL:False Ret:-13.8% Correct:True
+[START 32/1951] MLM 2017Q2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 28/1951] MPC: UP(D:None) TL:False Ret:14.7% Correct:True
+[START 33/1951] ALB 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 30/1951] F: UP(D:None) TL:False Ret:-11.3% Correct:False
+[START 34/1951] ANET 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 26/1951] CMG: DOWN(D:None) TL:False Ret:10.5% Correct:False
+[START 35/1951] GLW 2017Q2
+[DONE 23/1951] SYF: DOWN(D:None) TL:False Ret:18.1% Correct:False
+[START 36/1951] K 2017Q3
+[DONE 27/1951] LOW: DOWN(D:None) TL:False Ret:16.3% Correct:False
+[START 37/1951] ODFL 2017Q3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 33/1951] ALB: UP(D:None) TL:False Ret:-16.3% Correct:False
+[START 38/1951] FANG 2017Q1
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 32/1951] MLM: DOWN(D:None) TL:False Ret:-10.2% Correct:True
+[START 39/1951] AXON 2017Q3
+[DONE 25/1951] CCI: UP(D:None) TL:False Ret:11.5% Correct:True
+[START 40/1951] SMCI 2017Q4
+[DONE 24/1951] XYZ: UP(D:None) TL:False Ret:28.9% Correct:True
+[START 41/1951] TSCO 2017Q3
+[DONE 31/1951] CBOE: DOWN(D:None) TL:False Ret:12.8% Correct:False
+[START 42/1951] WYNN 2017Q3
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DONE 29/1951] TRGP: DOWN(D:None) TL:False Ret:-17.8% Correct:True
+[START 43/1951] PTC 2017Q2
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 35/1951] GLW: DOWN(D:None) TL:False Ret:-10.6% Correct:True
+[START 44/1951] AAPL 2017Q1
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DONE 34/1951] ANET: UP(D:None) TL:False Ret:-17.7% Correct:False
+[START 45/1951] STX 2017Q2
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 38/1951] FANG: UP(D:None) TL:False Ret:-12.7% Correct:False
+[START 46/1951] MOH 2017Q3
+[DONE 37/1951] ODFL: UP(D:None) TL:False Ret:17.5% Correct:True
+[START 47/1951] CPAY 2017Q3
+[DONE 36/1951] K: UP(D:None) TL:True Ret:11.8% Correct:True
+[START 48/1951] EW 2017Q4
+[DONE 40/1951] SMCI: DOWN(D:None) TL:False Ret:-21.8% Correct:True
+[START 49/1951] ALB 2017Q3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 42/1951] WYNN: DOWN(D:None) TL:False Ret:13.0% Correct:False
+[START 50/1951] UNP 2017Q3
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 44/1951] AAPL: UP(D:None) TL:True Ret:15.9% Correct:True
+[START 51/1951] DHI 2017Q1
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 46/1951] MOH: DOWN(D:None) TL:False Ret:11.1% Correct:False
+[START 52/1951] BIIB 2017Q1
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 45/1951] STX: UP(D:None) TL:True Ret:32.3% Correct:True
+[START 53/1951] GLW 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 43/1951] PTC: UP(D:None) TL:False Ret:10.0% Correct:True
+[START 54/1951] PYPL 2017Q1
+[DONE 39/1951] AXON: UP(D:None) TL:False Ret:15.4% Correct:True
+[START 55/1951] FSLR 2017Q3
+[DONE 41/1951] TSCO: DOWN(D:None) TL:False Ret:16.8% Correct:False
+[START 56/1951] EA 2017Q4
+[DONE 48/1951] EW: UP(D:None) TL:False Ret:12.5% Correct:True
+[START 57/1951] LYV 2017Q2
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 49/1951] ALB: DOWN(D:None) TL:False Ret:-10.6% Correct:True
+[START 58/1951] PODD 2017Q1
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 47/1951] CPAY: UP(D:None) TL:False Ret:15.7% Correct:True
+[START 59/1951] STX 2017Q3
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DONE 50/1951] UNP: UP(D:None) TL:False Ret:17.1% Correct:True
+[START 60/1951] MCD 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 51/1951] DHI: UP(D:None) TL:True Ret:15.9% Correct:True
+[START 61/1951] CAH 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 52/1951] BIIB: DOWN(D:None) TL:False Ret:-10.4% Correct:True
+[START 62/1951] DLTR 2017Q2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 53/1951] GLW: DOWN(D:None) TL:False Ret:-13.8% Correct:True
+[START 63/1951] TSLA 2017Q4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 56/1951] EA: DOWN(D:None) TL:False Ret:17.3% Correct:False
+[START 64/1951] EL 2017Q4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 57/1951] LYV: UP(D:None) TL:True Ret:16.0% Correct:True
+[START 65/1951] RL 2017Q2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DONE 55/1951] FSLR: UP(D:None) TL:True Ret:46.2% Correct:True
+[START 66/1951] CMCSA 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 54/1951] PYPL: DOWN(D:None) TL:False Ret:10.6% Correct:False
+[START 67/1951] WST 2017Q1
+[DONE 58/1951] PODD: UP(D:None) TL:False Ret:15.8% Correct:True
+[START 68/1951] AXON 2017Q4
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 59/1951] STX: DOWN(D:None) TL:False Ret:-15.3% Correct:True
+[START 69/1951] EQT 2017Q1
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 60/1951] MCD: DOWN(D:None) TL:False Ret:-11.0% Correct:True
+[START 70/1951] DGX 2017Q1
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DONE 61/1951] CAH: DOWN(D:None) TL:False Ret:-12.8% Correct:True
+[START 71/1951] BKR 2017Q4
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 65/1951] RL: DOWN(D:None) TL:False Ret:-12.4% Correct:True
+[START 72/1951] ADI 2017Q3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 62/1951] DLTR: DOWN(D:None) TL:False Ret:-17.9% Correct:True
+[START 73/1951] AMD 2017Q2

@@ -1,0 +1,33 @@
+=== Overall Stats ===
+Metric,Value
+Total Samples,312
+Correct Predictions,192
+Accuracy,61.5%
+
+=== Long-only Strategy ===
+Metric,Value
+Total Trades,26
+Coverage,8.3%
+Wins,19
+Losses,7
+Win Rate,73.1%
+Avg Return,+7.49%
+
+=== By Direction Score ===
+Score,Samples,Accuracy,Long Trades,Long Win Rate,Long Avg Return
+3,74,73.0%,0,N/A,N/A
+4,139,51.8%,0,N/A,N/A
+5,15,33.3%,0,N/A,N/A
+6,41,73.2%,9,66.7%,+2.64%
+7,38,68.4%,14,71.4%,+7.19%
+8,5,100.0%,3,100.0%,+23.43%
+
+=== Failed Long Trades ===
+Symbol,Direction Score,Return
+EXC,6,-28.5%
+ARE,6,-21.3%
+NCLH,7,-17.5%
+TMO,7,-12.4%
+AVGO,7,-11.5%
+ADSK,7,-10.9%
+ADSK,6,-10.8%

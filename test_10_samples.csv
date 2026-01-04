@@ -1,0 +1,11 @@
+symbol,year,quarter,quarter_str,transcript_id,transcript_date,company_name,sector,industry,transcript_length,return_30d,key
+A,2017,1,2017Q1,16649,2017-02-14,Agilent Technologies,Healthcare,Medical - Diagnostics & Research,55161,5.1465,A_2017_1
+ABBV,2017,1,2017Q1,13527,2017-04-27,AbbVie,Healthcare,Drug Manufacturers - General,72980,7.1187,ABBV_2017_1
+ABT,2017,1,2017Q1,22633,2017-04-19,Abbott Laboratories,Healthcare,Medical - Devices,52817,6.1478,ABT_2017_1
+ACGL,2017,1,2017Q1,11879,2017-04-26,Arch Capital Group,Financial Services,Insurance - Diversified,66119,-1.8029,ACGL_2017_1
+ACN,2017,1,2017Q1,13747,2016-12-21,Accenture,Technology,Information Technology Services,52197,-7.9936,ACN_2017_1
+ADI,2017,1,2017Q1,16685,2017-02-14,Analog Devices,Technology,Semiconductors,59763,5.1206,ADI_2017_1
+ADM,2017,1,2017Q1,22645,2017-05-02,Archer Daniels Midland,Consumer Defensive,Agricultural Farm Products,63870,-8.0472,ADM_2017_1
+ADSK,2017,1,2017Q1,17322,2016-05-20,Autodesk,Technology,Software - Application,57422,-5.7484,ADSK_2017_1
+AEE,2017,1,2017Q1,17309,2017-05-04,Ameren,Utilities,Regulated Electric,51825,5.236,AEE_2017_1
+AEP,2017,1,2017Q1,22657,2017-04-27,American Electric Power,Utilities,Regulated Electric,63291,6.1604,AEP_2017_1

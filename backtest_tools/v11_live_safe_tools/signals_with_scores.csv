@@ -1,0 +1,476 @@
+symbol,reaction_date,trade_long,trade_long_tier,year,quarter,direction_score,le_DirectionScore,le_HardPositivesCount,le_HardVetoCount,eps_surprise,earnings_day_return,pre_earnings_5d_return,risk_code,sector
+TEL,2017-01-25,True,D7_CORE,2017,1,,,,,,,,medium,Technology
+AAPL,2017-01-31,True,D7_CORE,2017,1,,,,,,,,low,Technology
+SNPS,2017-02-15,True,D7_CORE,2017,1,,,,,,,,low,Technology
+LRCX,2017-04-19,True,D7_CORE,2017,2,,,,,,,,,
+HON,2017-04-21,True,D7_CORE,2017,2,,,,,,,,,
+TMUS,2017-04-24,True,D7_CORE,2017,2,,,,,,,,medium,Communication Services
+ITW,2017-04-24,True,D7_CORE,2017,2,,,,,,,,high,Industrials
+TRMB,2017-04-27,True,D7_CORE,2017,2,,,,,,,,,
+ALGN,2017-04-27,True,D7_CORE,2017,2,,,,,,,,high,Healthcare
+AME,2017-05-02,True,D7_CORE,2017,2,,,,,,,,low,Industrials
+HLT,2017-05-02,True,D7_CORE,2017,2,,,,,,,,medium,Consumer Cyclical
+MTD,2017-05-04,True,D7_CORE,2017,2,,,,,,,,medium,Healthcare
+CI,2017-05-05,True,D7_CORE,2017,2,,,,,,,,medium,Healthcare
+MAR,2017-05-09,True,D7_CORE,2017,2,,,,,,,,low,Consumer Cyclical
+MCHP,2017-05-09,True,D7_CORE,2017,2,,,,,,,,low,Technology
+NVDA,2017-05-09,True,D7_CORE,2017,2,,,,,,,,medium,Technology
+DE,2017-05-19,True,D7_CORE,2017,2,,,,,,,,medium,Industrials
+NTAP,2017-05-24,True,D7_CORE,2017,2,,,,,,,,,
+COO,2017-06-01,True,D7_CORE,2017,2,,,,,,,,low,Healthcare
+WDAY,2017-06-01,True,D7_CORE,2017,2,,,,,,,,low,Technology
+DRI,2017-06-27,True,D7_CORE,2017,2,,,,,,,,,
+STZ,2017-06-29,True,D7_CORE,2017,2,,,,,,,,low,Consumer Defensive
+BA,2017-07-26,True,D7_CORE,2017,3,,,,,,,,medium,Industrials
+APD,2017-08-01,True,D7_CORE,2017,3,,,,,,,,low,Basic Materials
+HUM,2017-08-02,True,D7_CORE,2017,3,,,,,,,,high,Healthcare
+TDY,2017-08-03,True,D7_CORE,2017,3,,,,,,,,medium,Technology
+TSN,2017-08-07,True,D7_CORE,2017,3,,,,,,,,medium,Consumer Defensive
+GDDY,2017-08-12,True,D7_CORE,2017,3,6.0,6.0,0.0,0.0,,2.9437,1.94,low,Technology
+AMAT,2017-08-17,True,D7_CORE,2017,3,,,,,,,,low,Technology
+PANW,2017-08-31,True,D7_CORE,2017,3,,,,,,,,high,Technology
+STZ,2017-10-05,True,D7_CORE,2017,4,,,,,,,,medium,Consumer Defensive
+IBKR,2017-10-17,True,D7_CORE,2017,4,,,,,,,,medium,Financial Services
+TMUS,2017-10-22,True,D7_CORE,2017,4,,,,,,,,low,Communication Services
+CAT,2017-10-24,True,D7_CORE,2017,4,,,,,,,,low,Industrials
+ODFL,2017-10-26,True,D7_CORE,2017,4,,,,,,,,high,Industrials
+INTC,2017-10-26,True,D7_CORE,2017,4,,,,,,,,,
+HLT,2017-10-26,True,D7_CORE,2017,4,,,,,,,,,
+WY,2017-10-27,True,D7_CORE,2017,4,3.0,3.0,0.0,2.0,-0.1142857142857142,-3.9828,-5.73,high,Real Estate
+XYL,2017-10-31,True,D7_CORE,2017,4,,,,,,,,low,Industrials
+QCOM,2017-11-01,True,D7_CORE,2017,4,,,,,,,,low,Technology
+ZTS,2017-11-02,True,D7_CORE,2017,4,,,,,,,,,
+AME,2017-11-02,True,D7_CORE,2017,4,,,,,,,,low,Industrials
+MSCI,2017-11-02,True,D7_CORE,2017,4,,,,,,,,medium,Financial Services
+PH,2017-11-02,True,D7_CORE,2017,4,,,,,,,,low,Industrials
+PODD,2017-11-02,True,D7_CORE,2017,4,,,,,,,,,
+A,2017-11-20,True,D7_CORE,2017,4,,,,,,,,low,Healthcare
+DG,2017-12-07,True,D7_CORE,2017,4,,,,,,,,medium,Consumer Defensive
+CCL,2017-12-19,True,D7_CORE,2017,4,,,,,,,,low,Consumer Cyclical
+ACN,2017-12-21,True,D7_CORE,2017,4,,,,,,,,medium,Technology
+DAL,2018-01-11,True,D7_CORE,2018,1,,,,,,,,low,Industrials
+PTC,2018-01-17,True,D7_CORE,2018,1,,,,,,,,low,Technology
+HAL,2018-01-22,True,D7_CORE,2018,1,,,,,,,,low,Energy
+MMM,2018-01-25,True,D7_CORE,2018,1,,,,,,,,,
+MKC,2018-01-25,True,D7_CORE,2018,1,,,,,,,,,
+HON,2018-01-26,True,D7_CORE,2018,1,,,,,,,,low,Industrials
+AVY,2018-01-31,True,D7_CORE,2018,1,,,,,,,,low,Industrials
+ETN,2018-02-01,True,D7_CORE,2018,1,,,,,,,,medium,Industrials
+AME,2018-02-01,True,D7_CORE,2018,1,,,,,,,,low,Industrials
+CHD,2018-02-05,True,D7_CORE,2018,1,,,,,,,,low,Consumer Defensive
+TPR,2018-02-06,True,D7_CORE,2018,1,,,,,,,,low,Consumer Cyclical
+A,2018-02-14,True,D7_CORE,2018,1,,,,,,,,low,Healthcare
+AXON,2018-02-27,True,D7_CORE,2018,1,,,,,,,,high,Industrials
+BKNG,2018-02-27,True,D7_CORE,2018,1,,,,,,,,high,Consumer Cyclical
+CRM,2018-02-28,True,D7_CORE,2018,1,,,,,,,,medium,Technology
+KEYS,2018-03-01,True,D7_CORE,2018,1,,,,,,,,low,Technology
+ADSK,2018-03-06,True,D7_CORE,2018,1,,,,,,,,low,Technology
+AMD,2018-04-25,True,D7_CORE,2018,2,,,,,,,,,
+CMG,2018-04-25,True,D7_CORE,2018,2,,,,,,,,low,Consumer Cyclical
+BSX,2018-04-25,True,D7_CORE,2018,2,,,,,,,,low,Healthcare
+BA,2018-04-25,True,D7_CORE,2018,2,,,,,,,,medium,Industrials
+TT,2018-04-25,True,D7_CORE,2018,2,,,,,,,,medium,Industrials
+COP,2018-04-26,True,D7_CORE,2018,2,,,,,,,,low,Energy
+DLR,2018-04-26,True,D7_CORE,2018,2,,,,,,,,,
+MSFT,2018-04-26,True,D7_CORE,2018,2,,,,,,,,,
+FIS,2018-05-01,True,D7_CORE,2018,2,,,,,,,,medium,Technology
+ADP,2018-05-02,True,D7_CORE,2018,2,,,,,,,,low,Industrials
+DVN,2018-05-02,True,D7_CORE,2018,2,,,,,,,,high,Energy
+LYV,2018-05-03,True,D7_CORE,2018,2,,,,,,,,medium,Communication Services
+PSKY,2018-05-03,True,D7_CORE,2018,2,,,,,,,,low,Communication Services
+CPT,2018-05-04,True,D7_CORE,2018,2,,,,,,,,,
+IT,2018-05-08,True,D7_CORE,2018,2,,,,,,,,high,Technology
+INTU,2018-05-22,True,D7_CORE,2018,2,,,,,,,,medium,Technology
+CRM,2018-05-29,True,D7_CORE,2018,2,,,,,,,,low,Technology
+JNJ,2018-07-17,True,D7_CORE,2018,3,,,,,,,,low,Healthcare
+UAL,2018-07-18,True,D7_CORE,2018,3,,,,,,,,high,Industrials
+SNA,2018-07-19,True,D7_CORE,2018,3,,,,,,,,,
+HUBB,2018-07-24,True,D7_CORE,2018,3,,,,,,,,high,Industrials
+IEX,2018-07-25,True,D7_CORE,2018,3,,,,,,,,medium,Industrials
+APH,2018-07-25,True,D7_CORE,2018,3,,,,,,,,,
+NSC,2018-07-25,True,D7_CORE,2018,3,,,,,,,,low,Industrials
+TT,2018-07-25,True,D7_CORE,2018,3,,,,,,,,low,Industrials
+PSX,2018-07-27,True,D7_CORE,2018,3,,,,,,,,,
+UDR,2018-07-31,True,D7_CORE,2018,3,,,,,,,,,
+AME,2018-07-31,True,D7_CORE,2018,3,,,,,,,,medium,Industrials
+JCI,2018-07-31,True,D7_CORE,2018,3,,,,,,,,medium,Industrials
+ETN,2018-07-31,True,D7_CORE,2018,3,,,,,,,,,
+J,2018-08-06,True,D7_CORE,2018,3,,,,,,,,medium,Industrials
+ALB,2018-08-08,True,D7_CORE,2018,3,,,,,,,,medium,Basic Materials
+MDT,2018-08-21,True,D7_CORE,2018,3,,,,,,,,medium,Healthcare
+SNPS,2018-08-22,True,D7_CORE,2018,3,,,,,,,,low,Technology
+PYPL,2018-10-18,True,D7_CORE,2018,4,,,,,,,,,
+AXP,2018-10-18,True,D7_CORE,2018,4,,,,,,,,,
+NSC,2018-10-24,True,D7_CORE,2018,4,,,,,,,,,
+EME,2018-10-25,True,D7_CORE,2018,4,,,,,,,,medium,Industrials
+ROP,2018-10-26,True,D7_CORE,2018,4,,,,,,,,,
+AKAM,2018-10-29,True,D7_CORE,2018,4,,,,,,,,low,Technology
+ON,2018-10-29,True,D7_CORE,2018,4,,,,,,,,,
+TMUS,2018-10-30,True,D7_CORE,2018,4,,,,,,,,low,Communication Services
+OKE,2018-10-31,True,D7_CORE,2018,4,,,,,,,,high,Energy
+GNRC,2018-11-01,True,D7_CORE,2018,4,,,,,,,,,
+EPAM,2018-11-01,True,D7_CORE,2018,4,,,,,,,,medium,Technology
+DXCM,2018-11-07,True,D7_CORE,2018,4,,,,,,,,high,Healthcare
+WDAY,2018-11-29,True,D7_CORE,2018,4,,,,,,,,,
+DRI,2018-12-18,True,D7_CORE,2018,4,,,,,,,,high,Consumer Cyclical
+UNH,2019-01-15,True,D7_CORE,2019,1,,,,,,,,high,Healthcare
+HCA,2019-01-29,True,D7_CORE,2019,1,,,,,,,,medium,Healthcare
+LHX,2019-01-29,True,D7_CORE,2019,1,,,,,,,,,
+META,2019-01-30,True,D7_CORE,2019,1,,,,,,,,low,Communication Services
+DECK,2019-01-31,True,D7_CORE,2019,1,,,,,,,,high,Consumer Cyclical
+UPS,2019-01-31,True,D7_CORE,2019,1,,,,,,,,high,Industrials
+COP,2019-01-31,True,D7_CORE,2019,1,,,,,,,,low,Energy
+AZO,2019-02-26,True,D7_CORE,2019,1,,,,,,,,medium,Consumer Cyclical
+CSGP,2019-02-26,True,D7_CORE,2019,1,,,,,,,,low,Real Estate
+LULU,2019-03-27,True,D7_CORE,2019,1,,,,,,,,low,Consumer Cyclical
+DHR,2019-04-18,True,D7_CORE,2019,2,,,,,,,,low,Healthcare
+EBAY,2019-04-23,True,D7_CORE,2019,2,,,,,,,,low,Consumer Cyclical
+NOW,2019-04-24,True,D7_CORE,2019,2,,,,,,,,high,Technology
+COF,2019-04-25,True,D7_CORE,2019,2,,,,,,,,low,Financial Services
+CTRA,2019-04-26,True,D7_CORE,2019,2,,,,,,,,medium,Energy
+MA,2019-04-30,True,D7_CORE,2019,2,,,,,,,,medium,Financial Services
+FIS,2019-04-30,True,D7_CORE,2019,2,,,,,,,,low,Technology
+JCI,2019-05-01,True,D7_CORE,2019,2,,,,,,,,medium,Industrials
+LHX,2019-05-01,True,D7_CORE,2019,2,,,,,,,,medium,Industrials
+STE,2019-05-14,True,D7_CORE,2019,2,,,,,,,,medium,Healthcare
+JBL,2019-06-18,True,D7_CORE,2019,2,,,,,,,,medium,Technology
+ADBE,2019-06-18,True,D7_CORE,2019,2,,,,,,,,low,Technology
+CMG,2019-07-23,True,D7_CORE,2019,3,,,,,,,,,
+LMT,2019-07-24,True,D7_CORE,2019,3,,,,,,,,medium,Industrials
+ESS,2019-07-25,True,D7_CORE,2019,3,,,,,,,,high,Real Estate
+IR,2019-07-30,True,D7_CORE,2019,3,,,,,,,,low,Industrials
+LHX,2019-07-31,True,D7_CORE,2019,3,,,,,,,,medium,Industrials
+GRMN,2019-07-31,True,D7_CORE,2019,3,,,,,,,,medium,Technology
+WMB,2019-08-01,True,D7_CORE,2019,3,,,,,,,,medium,Energy
+NVDA,2019-08-16,True,D7_CORE,2019,3,,,,,,,,high,Technology
+MDT,2019-08-20,True,D7_CORE,2019,3,,,,,,,,,
+DG,2019-08-29,True,D7_CORE,2019,3,,,,,,,,,
+MKC,2019-10-01,True,D7_CORE,2019,4,,,,,,,,,
+ISRG,2019-10-17,True,D7_CORE,2019,4,,,,,,,,,
+PG,2019-10-22,True,D7_CORE,2019,4,,,,,,,,medium,Consumer Defensive
+MSFT,2019-10-23,True,D7_CORE,2019,4,,,,,,,,low,Technology
+FFIV,2019-10-23,True,D7_CORE,2019,4,,,,,,,,low,Technology
+PTC,2019-10-23,True,D7_CORE,2019,4,,,,,,,,low,Technology
+RTX,2019-10-24,True,D7_CORE,2019,4,,,,,,,,low,Industrials
+BXP,2019-10-30,True,D7_CORE,2019,4,,,,,,,,low,Real Estate
+AAPL,2019-10-30,True,D7_CORE,2019,4,,,,,,,,low,Technology
+FTNT,2019-11-01,True,D7_CORE,2019,4,,,,,,,,low,Technology
+AXON,2019-11-07,True,D7_CORE,2019,4,,,,,,,,low,Industrials
+AMAT,2019-11-14,True,D7_CORE,2019,4,,,,,,,,low,Technology
+UNH,2020-01-15,True,D7_CORE,2020,1,,,,,,,,medium,Healthcare
+VRTX,2020-01-31,True,D7_CORE,2020,1,,,,,,,,low,Healthcare
+CHTR,2020-01-31,True,D7_CORE,2020,1,,,,,,,,,
+FIS,2020-02-13,True,D7_CORE,2020,1,,,,,,,,medium,Technology
+GDDY,2020-02-13,True,D7_CORE,2020,1,,,,,,,,low,Technology
+TJX,2020-02-26,True,D7_CORE,2020,1,,,,,,,,low,Consumer Cyclical
+NKE,2020-03-24,True,D7_CORE,2020,1,,,,,,,,low,Consumer Cyclical
+WST,2020-04-23,True,D7_CORE,2020,2,,,,,,,,,
+LLY,2020-04-23,True,D7_CORE,2020,2,,,,,,,,,
+TMUS,2020-05-06,True,D7_CORE,2020,2,,,,,,,,,
+KIM,2020-05-08,True,D7_CORE,2020,2,,,,,,,,medium,Real Estate
+SNPS,2020-05-20,True,D7_CORE,2020,2,,,,,,,,medium,Technology
+CAG,2020-06-30,True,D7_CORE,2020,2,,,,,,,,,
+LMT,2020-07-21,True,D7_CORE,2020,3,,,,,,,,medium,Industrials
+ARE,2020-07-27,True,D7_CORE,2020,3,,,,,,,,medium,Real Estate
+CSGP,2020-07-28,True,D7_CORE,2020,3,,,,,,,,low,Real Estate
+HOLX,2020-07-29,True,D7_CORE,2020,3,,,,,,,,low,Healthcare
+QCOM,2020-07-29,True,D7_CORE,2020,3,,,,,,,,low,Technology
+EA,2020-07-30,True,D7_CORE,2020,3,,,,,,,,,
+CHD,2020-07-31,True,D7_CORE,2020,3,,,,,,,,medium,Consumer Defensive
+GEN,2020-08-06,True,D7_CORE,2020,3,,,,,,,,low,Technology
+SNPS,2020-08-19,True,D7_CORE,2020,3,,,,,,,,low,Technology
+SJM,2020-08-25,True,D7_CORE,2020,3,,,,,,,,,
+WDAY,2020-08-27,True,D7_CORE,2020,3,,,,,,,,low,Technology
+DRI,2020-09-24,True,D7_CORE,2020,3,,,,,,,,,
+IQV,2020-10-20,True,D7_CORE,2020,4,,,,,,,,low,Healthcare
+GNRC,2020-10-28,True,D7_CORE,2020,4,,,,,,,,high,Industrials
+CBRE,2020-10-29,True,D7_CORE,2020,4,,,,,,,,medium,Real Estate
+WAB,2020-10-29,True,D7_CORE,2020,4,,,,,,,,high,Industrials
+ABBV,2020-10-30,True,D7_CORE,2020,4,,,,,,,,,
+PYPL,2020-11-03,True,D7_CORE,2020,4,,,,,,,,,
+QCOM,2020-11-04,True,D7_CORE,2020,4,,,,,,,,medium,Technology
+AMAT,2020-11-12,True,D7_CORE,2020,4,,,,,,,,low,Technology
+TGT,2020-11-18,True,D7_CORE,2020,4,,,,,,,,high,Consumer Defensive
+ON,2021-02-01,True,D7_CORE,2021,1,,,,,,,,high,Technology
+GOOGL,2021-02-02,True,D7_CORE,2021,1,,,,,,,,low,Communication Services
+GOOG,2021-02-02,True,D7_CORE,2021,1,,,,,,,,low,Communication Services
+SNA,2021-02-04,True,D7_CORE,2021,1,,,,,,,,,
+COR,2021-02-04,True,D7_CORE,2021,1,6.0,6.0,3.0,0.0,0.0201612903225805,1.609,0.3,low,Healthcare
+LIN,2021-02-05,True,D7_CORE,2021,1,,,,,,,,low,Basic Materials
+J,2021-02-09,True,D7_CORE,2021,1,,,,,,,,medium,Industrials
+AMAT,2021-02-18,True,D7_CORE,2021,1,,,,,,,,medium,Technology
+TTD,2021-02-18,True,D7_CORE,2021,1,,,,,,,,,
+JNJ,2021-04-20,True,D7_CORE,2021,2,,,,,,,,low,Healthcare
+ISRG,2021-04-20,True,D7_CORE,2021,2,,,,,,,,low,Healthcare
+POOL,2021-04-22,True,D7_CORE,2021,2,,,,,,,,,
+NUE,2021-04-22,True,D7_CORE,2021,2,,,,,,,,,
+STX,2021-04-22,True,D7_CORE,2021,2,,,,,,,,high,Technology
+GOOGL,2021-04-27,True,D7_CORE,2021,2,,,,,,,,,
+MMC,2021-04-27,True,D7_CORE,2021,2,,,,,,,,low,Financial Services
+MDLZ,2021-04-27,True,D7_CORE,2021,2,,,,,,,,medium,Consumer Defensive
+EQIX,2021-04-29,True,D7_CORE,2021,2,,,,,,,,high,Real Estate
+FTNT,2021-04-29,True,D7_CORE,2021,2,,,,,,,,medium,Technology
+HSIC,2021-05-04,True,D7_CORE,2021,2,,,,,,,,medium,Healthcare
+CRL,2021-05-04,True,D7_CORE,2021,2,,,,,,,,,
+AMCR,2021-05-04,True,D7_CORE,2021,2,,,,,,,,low,Consumer Cyclical
+VMC,2021-05-04,True,D7_CORE,2021,2,,,,,,,,high,Basic Materials
+MSI,2021-05-06,True,D7_CORE,2021,2,,,,,,,,medium,Technology
+FIS,2021-05-06,True,D7_CORE,2021,2,,,,,,,,,
+MCK,2021-05-06,True,D7_CORE,2021,2,,,,,,,,,
+CI,2021-05-07,True,D7_CORE,2021,2,3.0,3.0,1.0,2.0,0.0564516129032258,-10.9167,-9.93,high,Healthcare
+WMT,2021-05-18,True,D7_CORE,2021,2,,,,,,,,medium,Consumer Defensive
+DELL,2021-05-28,True,D7_CORE,2021,2,,,,,,,,low,Technology
+ACN,2021-06-24,True,D7_CORE,2021,2,,,,,,,,low,Technology
+STT,2021-07-16,True,D7_CORE,2021,3,,,,,,,,low,Financial Services
+CMG,2021-07-20,True,D7_CORE,2021,3,,,,,,,,medium,Consumer Cyclical
+MMC,2021-07-22,True,D7_CORE,2021,3,,,,,,,,,
+FISV,2021-07-27,True,D7_CORE,2021,3,,,,,,,,high,Technology
+PNR,2021-07-27,True,D7_CORE,2021,3,,,,,,,,high,Industrials
+BG,2021-07-28,True,D7_CORE,2021,3,,,,,,,,low,Consumer Defensive
+TDY,2021-07-28,True,D7_CORE,2021,3,,,,,,,,,
+CTSH,2021-07-28,True,D7_CORE,2021,3,,,,,,,,medium,Technology
+BMY,2021-07-28,True,D7_CORE,2021,3,,,,,,,,high,Healthcare
+LIN,2021-07-30,True,D7_CORE,2021,3,,,,,,,,medium,Basic Materials
+WTW,2021-08-03,True,D7_CORE,2021,3,,,,,,,,low,Financial Services
+ETN,2021-08-03,True,D7_CORE,2021,3,,,,,,,,,
+MGM,2021-08-04,True,D7_CORE,2021,3,,,,,,,,medium,Consumer Cyclical
+WYNN,2021-08-04,True,D7_CORE,2021,3,,,,,,,,high,Consumer Cyclical
+PSKY,2021-08-05,True,D7_CORE,2021,3,,,,,,,,,
+PANW,2021-08-23,True,D7_CORE,2021,3,,,,,,,,,
+WSM,2021-08-25,True,D7_CORE,2021,3,,,,,,,,,
+DRI,2021-09-23,True,D7_CORE,2021,3,,,,,,,,low,Consumer Cyclical
+PAYX,2021-09-30,True,D7_CORE,2021,3,,,,,,,,high,Industrials
+POOL,2021-10-21,True,D7_CORE,2021,4,,,,,,,,high,Industrials
+MSFT,2021-10-26,True,D7_CORE,2021,4,,,,,,,,,
+GOOGL,2021-10-26,True,D7_CORE,2021,4,,,,,,,,medium,Communication Services
+BG,2021-10-27,True,D7_CORE,2021,4,,,,,,,,medium,Consumer Defensive
+KLAC,2021-10-27,True,D7_CORE,2021,4,,,,,,,,medium,Technology
+TXT,2021-10-28,True,D7_CORE,2021,4,,,,,,,,high,Industrials
+FE,2021-10-29,True,D7_CORE,2021,4,,,,,,,,high,Utilities
+MCK,2021-11-01,True,D7_CORE,2021,4,,,,,,,,low,Healthcare
+AME,2021-11-02,True,D7_CORE,2021,4,,,,,,,,,
+TMUS,2021-11-02,True,D7_CORE,2021,4,,,,,,,,medium,Communication Services
+AKAM,2021-11-02,True,D7_CORE,2021,4,,,,,,,,high,Technology
+IT,2021-11-02,True,D7_CORE,2021,4,,,,,,,,,
+GDDY,2021-11-03,True,D7_CORE,2021,4,,,,,,,,low,Technology
+BLDR,2021-11-04,True,D7_CORE,2021,4,,,,,,,,medium,Industrials
+PH,2021-11-04,True,D7_CORE,2021,4,,,,,,,,,
+REG,2021-11-05,True,D7_CORE,2021,4,,,,,,,,high,Real Estate
+OXY,2021-11-05,True,D7_CORE,2021,4,,,,,,,,low,Energy
+NVDA,2021-11-18,True,D7_CORE,2021,4,,,,,,,,high,Technology
+AXP,2022-01-25,True,D7_CORE,2022,1,,,,,,,,medium,Financial Services
+NOW,2022-01-26,True,D7_CORE,2022,1,8.0,8.0,5.0,0.0,0.0236686390532544,8.0915,-7.71,low,Technology
+AJG,2022-01-27,True,D7_CORE,2022,1,,,,,,,,high,Financial Services
+BALL,2022-01-27,True,D7_CORE,2022,1,,,,,,,,high,Consumer Cyclical
+TMUS,2022-02-02,True,D7_CORE,2022,1,,,,,,,,low,Communication Services
+BDX,2022-02-03,True,D7_CORE,2022,1,,,,,,,,medium,Healthcare
+ON,2022-02-07,True,D7_CORE,2022,1,,,,,,,,low,Technology
+OMC,2022-02-08,True,D7_CORE,2022,1,,,,,,,,low,Communication Services
+CMG,2022-02-08,True,D7_CORE,2022,1,,,,,,,,low,Consumer Cyclical
+ANET,2022-02-14,True,D7_CORE,2022,1,,,,,,,,,
+CRWD,2022-03-09,True,D7_CORE,2022,1,,,,,,,,high,Technology
+ROP,2022-04-26,True,D7_CORE,2022,2,,,,,,,,medium,Industrials
+VLO,2022-04-26,True,D7_CORE,2022,2,,,,,,,,,
+TMUS,2022-04-27,True,D7_CORE,2022,2,,,,,,,,low,Communication Services
+HUM,2022-04-27,True,D7_CORE,2022,2,,,,,,,,medium,Healthcare
+WMB,2022-05-03,True,D7_CORE,2022,2,,,,,,,,high,Energy
+MPC,2022-05-03,True,D7_CORE,2022,2,,,,,,,,,
+BXP,2022-05-03,True,D7_CORE,2022,2,,,,,,,,low,Real Estate
+EXR,2022-05-04,True,D7_CORE,2022,2,,,,,,,,medium,Real Estate
+VTRS,2022-05-08,True,D7_CORE,2022,2,,,,,,,,low,Healthcare
+SYY,2022-05-10,True,D7_CORE,2022,2,,,,,,,,high,Consumer Defensive
+TTWO,2022-05-16,True,D7_CORE,2022,2,,,,,,,,low,Technology
+KEYS,2022-05-17,True,D7_CORE,2022,2,,,,,,,,low,Technology
+UNH,2022-07-15,True,D7_CORE,2022,3,,,,,,,,low,Healthcare
+CDNS,2022-07-25,True,D7_CORE,2022,3,,,,,,,,high,Technology
+CMG,2022-07-26,True,D7_CORE,2022,3,,,,,,,,high,Consumer Cyclical
+BXP,2022-07-27,True,D7_CORE,2022,3,,,,,,,,high,Real Estate
+TEL,2022-07-27,True,D7_CORE,2022,3,,,,,,,,low,Technology
+EQIX,2022-07-27,True,D7_CORE,2022,3,,,,,,,,low,Real Estate
+WM,2022-07-27,True,D7_CORE,2022,3,,,,,,,,high,Industrials
+MA,2022-07-28,True,D7_CORE,2022,3,,,,,,,,medium,Financial Services
+AVB,2022-07-28,True,D7_CORE,2022,3,,,,,,,,high,Real Estate
+KIM,2022-07-28,True,D7_CORE,2022,3,,,,,,,,medium,Real Estate
+FTV,2022-07-28,True,D7_CORE,2022,3,,,,,,,,,
+GWW,2022-07-29,True,D7_CORE,2022,3,,,,,,,,medium,Industrials
+CTVA,2022-08-05,True,D7_CORE,2022,3,,,,,,,,medium,Basic Materials
+KEYS,2022-08-17,True,D7_CORE,2022,3,,,,,,,,low,Technology
+AVGO,2022-09-01,True,D7_CORE,2022,3,,,,,,,,low,Technology
+KR,2022-09-09,True,D7_CORE,2022,3,,,,,,,,low,Consumer Defensive
+CTAS,2022-09-28,True,D7_CORE,2022,3,,,,,,,,low,Industrials
+ISRG,2022-10-18,True,D7_CORE,2022,4,,,,,,,,high,Healthcare
+ELV,2022-10-19,True,D7_CORE,2022,4,,,,,,,,medium,Healthcare
+ITW,2022-10-25,True,D7_CORE,2022,4,,,,,,,,medium,Industrials
+HON,2022-10-27,True,D7_CORE,2022,4,,,,,,,,low,Industrials
+EME,2022-10-27,True,D7_CORE,2022,4,,,,,,,,medium,Industrials
+MAA,2022-10-27,True,D7_CORE,2022,4,,,,,,,,medium,Real Estate
+GWW,2022-10-28,True,D7_CORE,2022,4,,,,,,,,high,Industrials
+XYL,2022-11-01,True,D7_CORE,2022,4,,,,,,,,,
+EQIX,2022-11-02,True,D7_CORE,2022,4,,,,,,,,,
+MSI,2022-11-03,True,D7_CORE,2022,4,,,,,,,,low,Technology
+IR,2022-11-03,True,D7_CORE,2022,4,,,,,,,,,
+PODD,2022-11-03,True,D7_CORE,2022,4,,,,,,,,medium,Healthcare
+JCI,2022-11-03,True,D7_CORE,2022,4,,,,,,,,low,Industrials
+CBOE,2022-11-04,True,D7_CORE,2022,4,,,,,,,,low,Financial Services
+NCLH,2022-11-08,True,D7_CORE,2022,4,,,,,,,,high,Consumer Cyclical
+AXON,2022-11-08,True,D7_CORE,2022,4,,,,,,,,medium,Industrials
+PANW,2022-11-17,True,D7_CORE,2022,4,,,,,,,,,
+IBKR,2023-01-17,True,D7_CORE,2023,1,,,,,,,,,
+V,2023-01-26,True,D7_CORE,2023,1,,,,,,,,low,Financial Services
+YUM,2023-02-08,True,D7_CORE,2023,1,,,,,,,,high,Consumer Cyclical
+HLT,2023-02-09,True,D7_CORE,2023,1,,,,,,,,high,Consumer Cyclical
+PLTR,2023-02-13,True,D7_CORE,2023,1,,,,,,,,,
+MAR,2023-02-14,True,D7_CORE,2023,1,,,,,,,,,
+DE,2023-02-17,True,D7_CORE,2023,1,,,,,,,,low,Industrials
+CRM,2023-03-01,True,D7_CORE,2023,1,,,,,,,,,
+ADBE,2023-03-15,True,D7_CORE,2023,1,,,,,,,,low,Technology
+CTAS,2023-03-29,True,D7_CORE,2023,1,,,,,,,,low,Industrials
+MAA,2023-04-27,True,D7_CORE,2023,2,,,,,,,,medium,Real Estate
+AVB,2023-04-27,True,D7_CORE,2023,2,,,,,,,,medium,Real Estate
+CHD,2023-04-27,True,D7_CORE,2023,2,,,,,,,,low,Consumer Defensive
+ROP,2023-04-27,True,D7_CORE,2023,2,,,,,,,,,
+HON,2023-04-27,True,D7_CORE,2023,2,6.0,6.0,5.0,1.0,0.0090497737556561,-5.69,-5.55,high,Industrials
+ROK,2023-04-27,True,D7_CORE,2023,2,,,,,,,,low,Industrials
+CL,2023-04-28,True,D7_CORE,2023,2,,,,,,,,,
+NCLH,2023-05-01,True,D7_CORE,2023,2,,,,,,,,high,Consumer Cyclical
+ETN,2023-05-02,True,D7_CORE,2023,2,,,,,,,,,
+PAYC,2023-05-02,True,D7_CORE,2023,2,,,,,,,,high,Technology
+AME,2023-05-02,True,D7_CORE,2023,2,,,,,,,,low,Industrials
+FTNT,2023-05-04,True,D7_CORE,2023,2,,,,,,,,high,Technology
+PODD,2023-05-04,True,D7_CORE,2023,2,,,,,,,,high,Healthcare
+HST,2023-05-05,True,D7_CORE,2023,2,,,,,,,,high,Real Estate
+TDG,2023-05-09,True,D7_CORE,2023,2,,,,,,,,low,Industrials
+TPR,2023-05-11,True,D7_CORE,2023,2,,,,,,,,low,Consumer Cyclical
+SNPS,2023-05-17,True,D7_CORE,2023,2,,,,,,,,low,Technology
+NVDA,2023-05-24,True,D7_CORE,2023,2,,,,,,,,high,Technology
+LEN,2023-06-15,True,D7_CORE,2023,2,,,,,,,,medium,Consumer Cyclical
+UAL,2023-07-20,True,D7_CORE,2023,3,,,,,,,,high,Industrials
+GE,2023-07-25,True,D7_CORE,2023,3,,,,,,,,,
+LRCX,2023-07-26,True,D7_CORE,2023,3,,,,,,,,low,Technology
+MDLZ,2023-07-27,True,D7_CORE,2023,3,,,,,,,,low,Consumer Defensive
+CINF,2023-07-28,True,D7_CORE,2023,3,,,,,,,,medium,Financial Services
+SBAC,2023-07-31,True,D7_CORE,2023,3,,,,,,,,high,Real Estate
+ANET,2023-07-31,True,D7_CORE,2023,3,,,,,,,,low,Technology
+FICO,2023-08-02,True,D7_CORE,2023,3,,,,,,,,low,Technology
+IR,2023-08-03,True,D7_CORE,2023,3,,,,,,,,medium,Industrials
+PSA,2023-08-03,True,D7_CORE,2023,3,,,,,,,,,
+DVA,2023-08-03,True,D7_CORE,2023,3,,,,,,,,low,Healthcare
+APTV,2023-08-03,True,D7_CORE,2023,3,,,,,,,,high,Consumer Cyclical
+AMGN,2023-08-03,True,D7_CORE,2023,3,,,,,,,,,
+PANW,2023-08-18,True,D7_CORE,2023,3,,,,,,,,,
+HPE,2023-08-29,True,D7_CORE,2023,3,,,,,,,,low,Technology
+DXCM,2023-10-26,True,D7_CORE,2023,4,,,,,,,,high,Healthcare
+AOS,2023-10-26,True,D7_CORE,2023,4,,,,,,,,,
+AMT,2023-10-26,True,D7_CORE,2023,4,,,,,,,,medium,Real Estate
+DECK,2023-10-26,True,D7_CORE,2023,4,,,,,,,,low,Consumer Cyclical
+MAS,2023-10-26,True,D7_CORE,2023,4,,,,,,,,,
+EG,2023-10-28,True,D7_CORE,2023,4,,,,,,,,,
+ANET,2023-10-30,True,D7_CORE,2023,4,,,,,,,,high,Technology
+WELL,2023-10-31,True,D7_CORE,2023,4,,,,,,,,medium,Real Estate
+EXPE,2023-11-02,True,D7_CORE,2023,4,,,,,,,,high,Consumer Cyclical
+LYV,2023-11-02,True,D7_CORE,2023,4,,,,,,,,high,Communication Services
+PWR,2023-11-02,True,D7_CORE,2023,4,,,,,,,,medium,Industrials
+CI,2023-11-02,True,D7_CORE,2023,4,,,,,,,,,
+CEG,2023-11-06,True,D7_CORE,2023,4,,,,,,,,high,Utilities
+AXON,2023-11-07,True,D7_CORE,2023,4,,,,,,,,low,Industrials
+INTU,2023-11-28,True,D7_CORE,2023,4,,,,,,,,,
+CCL,2023-12-21,True,D7_CORE,2023,4,,,,,,,,low,Consumer Cyclical
+WRB,2024-01-24,True,D7_CORE,2024,1,3.0,3.0,3.0,1.0,-0.2727272727272726,-5.214,-3.71,high,Financial Services
+HCA,2024-01-30,True,D7_CORE,2024,1,,,,,,,,,
+DECK,2024-02-01,True,D7_CORE,2024,1,,,,,,,,,
+J,2024-02-06,True,D7_CORE,2024,1,,,,,,,,low,Industrials
+DVA,2024-02-13,True,D7_CORE,2024,1,,,,,,,,,
+APP,2024-02-14,True,D7_CORE,2024,1,,,,,,,,,
+WELL,2024-02-14,True,D7_CORE,2024,1,,,,,,,,medium,Real Estate
+NVDA,2024-02-21,True,D7_CORE,2024,1,,,,,,,,low,Technology
+MU,2024-03-20,True,D7_CORE,2024,1,,,,,,,,low,Technology
+OMC,2024-04-16,True,D7_CORE,2024,2,,,,,,,,high,Communication Services
+PHM,2024-04-23,True,D7_CORE,2024,2,,,,,,,,low,Consumer Cyclical
+CSGP,2024-04-23,True,D7_CORE,2024,2,,,,,,,,,
+CMG,2024-04-24,True,D7_CORE,2024,2,,,,,,,,,
+GOOGL,2024-04-25,True,D7_CORE,2024,2,,,,,,,,high,Communication Services
+LLY,2024-04-30,True,D7_CORE,2024,2,7.0,7.0,4.0,0.0,0.5076923076923077,9.4763,1.55,low,Healthcare
+VRSK,2024-05-01,True,D7_CORE,2024,2,,,,,,,,,
+KIM,2024-05-02,True,D7_CORE,2024,2,,,,,,,,,
+XYL,2024-05-02,True,D7_CORE,2024,2,,,,,,,,high,Industrials
+CRWD,2024-06-04,True,D7_CORE,2024,2,,,,,,,,,
+HPE,2024-06-04,True,D7_CORE,2024,2,,,,,,,,low,Technology
+CCL,2024-06-25,True,D7_CORE,2024,2,,,,,,,,medium,Consumer Cyclical
+CBRE,2024-07-25,True,D7_CORE,2024,3,,,,,,,,medium,Real Estate
+DOV,2024-07-25,True,D7_CORE,2024,3,,,,,,,,high,Industrials
+BKR,2024-07-26,True,D7_CORE,2024,3,,,,,,,,low,Energy
+ON,2024-07-29,True,D7_CORE,2024,3,,,,,,,,medium,Technology
+ANET,2024-07-30,True,D7_CORE,2024,3,,,,,,,,,
+CMI,2024-08-01,True,D7_CORE,2024,3,,,,,,,,medium,Industrials
+IRM,2024-08-01,True,D7_CORE,2024,3,,,,,,,,high,Real Estate
+REG,2024-08-02,True,D7_CORE,2024,3,,,,,,,,low,Real Estate
+PLTR,2024-08-05,True,D7_CORE,2024,3,,,,,,,,low,Technology
+FTNT,2024-08-06,True,D7_CORE,2024,3,,,,,,,,,
+AXON,2024-08-06,True,D7_CORE,2024,3,,,,,,,,medium,Industrials
+TDG,2024-08-06,True,D7_CORE,2024,3,,,,,,,,low,Industrials
+UBER,2024-08-06,True,D7_CORE,2024,3,,,,,,,,,
+DVN,2024-08-07,True,D7_CORE,2024,3,,,,,,,,low,Energy
+EQIX,2024-08-07,True,D7_CORE,2024,3,,,,,,,,,
+DDOG,2024-08-08,True,D7_CORE,2024,3,,,,,,,,low,Technology
+TTD,2024-08-08,True,D7_CORE,2024,3,,,,,,,,high,Technology
+MU,2024-09-25,True,D7_CORE,2024,3,,,,,,,,,
+ISRG,2024-10-17,True,D7_CORE,2024,4,,,,,,,,high,Healthcare
+PM,2024-10-22,True,D7_CORE,2024,4,,,,,,,,medium,Consumer Defensive
+BKR,2024-10-23,True,D7_CORE,2024,4,,,,,,,,low,Energy
+RJF,2024-10-23,True,D7_CORE,2024,4,,,,,,,,low,Financial Services
+CBRE,2024-10-24,True,D7_CORE,2024,4,,,,,,,,low,Real Estate
+TYL,2024-10-24,True,D7_CORE,2024,4,,,,,,,,,
+FFIV,2024-10-28,True,D7_CORE,2024,4,,,,,,,,low,Technology
+CDNS,2024-10-28,True,D7_CORE,2024,4,,,,,,,,,
+V,2024-10-29,True,D7_CORE,2024,4,,,,,,,,low,Financial Services
+RCL,2024-10-29,True,D7_CORE,2024,4,,,,,,,,medium,Consumer Cyclical
+GLW,2024-10-29,True,D7_CORE,2024,4,6.0,6.0,3.0,0.0,,-2.7913,-7.79,medium,Technology
+PAYC,2024-10-30,True,D7_CORE,2024,4,,,,,,,,low,Technology
+EQT,2024-10-30,True,D7_CORE,2024,4,,,,,,,,,
+GDDY,2024-10-30,True,D7_CORE,2024,4,,,,,,,,,
+HUM,2024-10-30,True,D7_CORE,2024,4,,,,,,,,high,Healthcare
+PLTR,2024-11-04,True,D7_CORE,2024,4,,,,,,,,medium,Technology
+TTWO,2024-11-06,True,D7_CORE,2024,4,,,,,,,,low,Technology
+MCK,2024-11-06,True,D7_CORE,2024,4,,,,,,,,high,Healthcare
+VST,2024-11-07,True,D7_CORE,2024,4,,,,,,,,,
+WMT,2024-11-19,True,D7_CORE,2024,4,,,,,,,,low,Consumer Defensive
+AVGO,2024-12-12,True,D7_CORE,2024,4,,,,,,,,medium,Technology
+TECH,2025-02-05,True,D7_CORE,2025,1,,,,,,,,medium,Healthcare
+MGM,2025-02-12,True,D7_CORE,2025,1,,,,,,,,medium,Consumer Cyclical
+HOOD,2025-02-12,True,D7_CORE,2025,1,,,,,,,,,
+CBRE,2025-02-13,True,D7_CORE,2025,1,,,,,,,,low,Real Estate
+INTU,2025-02-25,True,D7_CORE,2025,1,,,,,,,,high,Technology
+AVGO,2025-03-06,True,D7_CORE,2025,1,,,,,,,,low,Technology
+CTAS,2025-03-26,True,D7_CORE,2025,1,,,,,,,,low,Industrials
+PM,2025-04-23,True,D7_CORE,2025,2,,,,,,,,high,Consumer Defensive
+LRCX,2025-04-23,True,D7_CORE,2025,2,,,,,,,,low,Technology
+TXN,2025-04-23,True,D7_CORE,2025,2,,,,,,,,high,Technology
+WELL,2025-04-29,True,D7_CORE,2025,2,,,,,,,,low,Real Estate
+STX,2025-04-29,True,D7_CORE,2025,2,,,,,,,,medium,Technology
+ADP,2025-04-30,True,D7_CORE,2025,2,,,,,,,,,
+AMZN,2025-05-01,True,D7_CORE,2025,2,,,,,,,,high,Consumer Cyclical
+HWM,2025-05-01,True,D7_CORE,2025,2,,,,,,,,high,Industrials
+KIM,2025-05-01,True,D7_CORE,2025,2,,,,,,,,high,Real Estate
+CBOE,2025-05-02,True,D7_CORE,2025,2,,,,,,,,low,Financial Services
+CSCO,2025-05-14,True,D7_CORE,2025,2,,,,,,,,,
+INTU,2025-05-22,True,D7_CORE,2025,2,,,,,,,,low,Technology
+CFG,2025-07-17,True,D7_CORE,2025,3,,,,,,,,medium,Financial Services
+IBKR,2025-07-17,True,D7_CORE,2025,3,,,,,,,,high,Financial Services
+TEL,2025-07-23,True,D7_CORE,2025,3,,,,,,,,medium,Technology
+HIG,2025-07-29,True,D7_CORE,2025,3,,,,,,,,,
+CBRE,2025-07-29,True,D7_CORE,2025,3,,,,,,,,medium,Real Estate
+SPGI,2025-07-31,True,D7_CORE,2025,3,,,,,,,,,
+AXON,2025-08-04,True,D7_CORE,2025,3,,,,,,,,,
+PLTR,2025-08-04,True,D7_CORE,2025,3,,,,,,,,,
+J,2025-08-05,True,D7_CORE,2025,3,,,,,,,,low,Industrials
+PAYC,2025-08-06,True,D7_CORE,2025,3,,,,,,,,,
+DASH,2025-08-06,True,D7_CORE,2025,3,,,,,,,,,
+BDX,2025-08-07,True,D7_CORE,2025,3,,,,,,,,medium,Healthcare
+MNST,2025-08-07,True,D7_CORE,2025,3,,,,,,,,,
+MSI,2025-08-07,True,D7_CORE,2025,3,,,,,,,,,
+APA,2025-08-07,True,D7_CORE,2025,3,,,,,,,,,
+ADI,2025-08-20,True,D7_CORE,2025,3,,,,,,,,low,Technology
+AVGO,2025-09-04,True,D7_CORE,2025,3,,,,,,,,low,Technology
+BSX,2025-10-22,True,D7_CORE,2025,4,,,,,,,,,
+APH,2025-10-22,True,D7_CORE,2025,4,,,,,,,,,
+CB,2025-10-22,True,D7_CORE,2025,4,,,,,,,,,

@@ -50,23 +50,51 @@ class TradingCalendar:
         nxt = cal.next_session(session)
         return pd.Timestamp(nxt).normalize()
 
-    def add_sessions(self, session: pd.Timestamp, n: int) -> pd.Timestamp:
+    def _snap_to_valid_session(self, session: pd.Timestamp, direction: str = "forward") -> pd.Timestamp:
         """
-        Add n trading sessions to 'session'.
-        If n=0 returns the same session.
+        If session is not a valid trading day, snap to nearest valid session.
+        direction: 'forward' or 'backward'
         """
         cal = self._get_cal()
         session = pd.Timestamp(session).normalize()
+
+        # Check if already valid
+        sessions = cal.sessions_in_range(session, session)
+        if len(sessions) == 1:
+            return session
+
+        # Not a valid trading day - search in a 10-day window
+        if direction == "forward":
+            search_end = session + pd.Timedelta(days=10)
+            nearby = cal.sessions_in_range(session, search_end)
+        else:
+            search_start = session - pd.Timedelta(days=10)
+            nearby = cal.sessions_in_range(search_start, session)
+
+        if len(nearby) == 0:
+            raise CalendarError(f"No valid trading sessions near {session.date()}")
+
+        if direction == "forward":
+            return pd.Timestamp(nearby[0]).normalize()
+        else:
+            return pd.Timestamp(nearby[-1]).normalize()
+
+    def add_sessions(self, session: pd.Timestamp, n: int) -> pd.Timestamp:
+        """
+        Add n trading sessions to 'session'.
+        If n=0 returns the same session (or next valid session if input is not a trading day).
+
+        If 'session' is not a valid trading day (weekend/holiday), we first snap to
+        the next valid trading session before adding n sessions.
+        """
+        cal = self._get_cal()
+        session = pd.Timestamp(session).normalize()
+
+        # Snap to valid session if needed
+        session = self._snap_to_valid_session(session, direction="forward")
+
         if n == 0:
             return session
-        # sessions_window gives a window inclusive of session
-        try:
-            # get_loc requires exact match; ensure session is a valid session
-            sessions = cal.sessions_in_range(session, session)
-            if len(sessions) == 0:
-                raise CalendarError(f"{session.date()} is not a valid trading session in {self.name}")
-        except Exception as e:
-            raise CalendarError(str(e))
 
         # To add n sessions, we can step iteratively using next_session for robustness
         cur = session

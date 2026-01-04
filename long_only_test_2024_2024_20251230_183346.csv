@@ -1,0 +1,71 @@
+symbol,year,quarter,category,company_name,sector,success,error,time_seconds,prediction,confidence,direction_score,actual_return_30d_pct,correct,trade_long,summary,input_tokens,output_tokens,cost_usd,risk_code,long_block_reason,eps_surprise,earnings_day_return,pre_earnings_5d_return,computed_positives,computed_vetoes
+AVGO,2024,1,LOSER,Broadcom,Technology,False,"Agentic RAG pipeline failure: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>",7.458844900131226,,,,-12.9709,,False,,0,0,0.0,unknown,EXCEPTION,,,,0,0
+UAL,2024,1,GAINER,United Airlines Holdings,Industrials,False,"Agentic RAG pipeline failure: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>",4.56753396987915,,,,23.7108,,False,,0,0,0.0,unknown,EXCEPTION,,,,0,0
+AME,2024,3,GAINER,Ametek,Industrials,False,"Agentic RAG pipeline failure: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>",4.509516716003418,,,,10.9348,,False,,0,0,0.0,unknown,EXCEPTION,,,,0,0
+TPL,2024,1,GAINER,Texas Pacific Land Corporation,Energy,False,"Agentic RAG pipeline failure: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>",3.3918120861053467,,,,32.6886,,False,,0,0,0.0,unknown,EXCEPTION,,,,0,0
+APA,2024,4,LOSER,APA Corporation,Energy,False,"Agentic RAG pipeline failure: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>",3.4300990104675293,,,,-33.6665,,False,,0,0,0.0,unknown,EXCEPTION,,,,0,0
+GPN,2024,2,GAINER,Global Payments,Industrials,False,"Agentic RAG pipeline failure: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>",2.9558920860290527,,,,21.447,,False,,0,0,0.0,unknown,EXCEPTION,,,,0,0
+DDOG,2024,4,LOSER,Datadog,Technology,False,"Agentic RAG pipeline failure: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>",2.856191873550415,,,,-31.7307,,False,,0,0,0.0,unknown,EXCEPTION,,,,0,0
+NEM,2024,3,LOSER,Newmont,Basic Materials,False,"Agentic RAG pipeline failure: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>",2.973168134689331,,,,-28.8015,,False,,0,0,0.0,unknown,EXCEPTION,,,,0,0
+HPE,2024,3,GAINER,Hewlett Packard Enterprise,Technology,False,"Agentic RAG pipeline failure: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>",2.7157609462738037,,,,11.561,,False,,0,0,0.0,unknown,EXCEPTION,,,,0,0
+ODFL,2024,4,LOSER,Old Dominion,Industrials,False,"Agentic RAG pipeline failure: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>",2.8126471042633057,,,,-12.2672,,False,,0,0,0.0,unknown,EXCEPTION,,,,0,0

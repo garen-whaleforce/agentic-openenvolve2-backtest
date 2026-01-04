@@ -1,0 +1,82 @@
+======================================================================
+Long-only Strategy Validation Test (PARALLEL MODE)
+Samples: 600, Years: 2019-2024, Parallel Workers: 4
+Started: 2025-12-30 19:12:56
+======================================================================
+🔍 Checking LiteLLM availability...
+✅ LiteLLM is available (provider: litellm)
+
+Loaded 600 samples
+Year distribution: {2019: 101, 2020: 101, 2021: 100, 2022: 99, 2023: 101, 2024: 98}
+Category distribution: {'GAINER': 302, 'LOSER': 298}
+Sector distribution (top 5): {'Technology': 106, 'Healthcare': 92, 'Industrials': 88, 'Consumer Cyclical': 84, 'Financial Services': 56}
+
+Running 600 tests with 4 parallel workers...
+Progress reports every 50 samples
+
+[START 1/600] XYZ 2023Q4 (GAINER)
+[START 2/600] PH 2021Q1 (GAINER)
+[START 3/600] EL 2022Q1 (GAINER)
+[START 4/600] AKAM 2020Q4 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 2
+[DEBUG] CompareWithPeers bucket size after helper: 2
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 1/600] EL: UP(D:6) TL:False Ret:12.3% Correct:True
+[START 5/600] DGX 2022Q3 (GAINER)
+[DONE 2/600] PH: DOWN(D:4) TL:False Ret:24.8% Correct:False
+[START 6/600] CI 2023Q4 (GAINER)
+[DONE 3/600] AKAM: DOWN(D:3) TL:False Ret:-15.6% Correct:True
+[START 7/600] TT 2021Q3 (GAINER)
+[DONE 4/600] XYZ: DOWN(D:4) TL:False Ret:19.7% Correct:False
+[START 8/600] LUV 2024Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 5/600] DGX: DOWN(D:4) TL:False Ret:18.8% Correct:False
+[START 9/600] PFE 2023Q3 (LOSER)
+[DONE 6/600] CI: UP(D:7) TL:False Ret:14.7% Correct:True
+[START 10/600] EXE 2024Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 7/600] LUV: DOWN(D:4) TL:False Ret:11.2% Correct:False
+[START 11/600] EME 2022Q2 (GAINER)
+[DONE 8/600] TT: DOWN(D:4) TL:False Ret:10.5% Correct:False
+[START 12/600] PAYX 2020Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DEBUG] CompareWithPeers bucket size after helper: 5
+[DONE 9/600] EXE: UP(D:6) TL:False Ret:16.2% Correct:True
+[START 13/600] TSLA 2022Q2 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 10/600] PFE: DOWN(D:3) TL:False Ret:-12.7% Correct:True
+[START 14/600] PNR 2024Q4 (LOSER)
+[DONE 11/600] EME: UP(D:6) TL:False Ret:12.1% Correct:True
+[START 15/600] TJX 2019Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 4
+[DEBUG] CompareWithPeers bucket size after helper: 4
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DEBUG] CompareWithPeers bucket size before helper: 3
+[DONE 12/600] PAYX: DOWN(D:4) TL:False Ret:14.3% Correct:False
+[START 16/600] NCLH 2020Q1 (GAINER)
+[DEBUG] CompareWithPeers bucket size after helper: 3
+[DONE 13/600] TSLA: UP(D:6) TL:False Ret:12.0% Correct:True
+[START 17/600] MRNA 2024Q2 (LOSER)
+[DONE 14/600] PNR: DOWN(D:4) TL:False Ret:-13.2% Correct:True
+[START 18/600] COF 2023Q2 (LOSER)
+[DEBUG] CompareWithPeers bucket size before helper: 0
+[DEBUG] CompareWithPeers bucket size after helper: 0
+[DONE 15/600] TJX: UP(D:6) TL:False Ret:12.3% Correct:True
+[START 19/600] CCL 2022Q3 (GAINER)
+[DEBUG] CompareWithPeers bucket size before helper: 5
+[DEBUG] CompareWithPeers bucket size after helper: 5

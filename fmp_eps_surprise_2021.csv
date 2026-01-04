@@ -1,0 +1,3 @@
+{
+  "Error Message": "Limit Reach. This is a bulk endpoint that provides a significant amount of data that is updated once every few hours. Frequent abuse on this API Endpoint may result in restrictions placed on this API Key. For further information please visit documentation for more details at https://site.financialmodelingprep.com/"
+}

@@ -84,9 +84,9 @@ from pg_client import get_cursor
 # Configuration
 # =============================================================================
 
-DEFAULT_SAMPLES = 8750  # 35 quarters × 250 samples
-SAMPLES_PER_QUARTER = 250
-DEFAULT_CONCURRENCY = 20
+DEFAULT_SAMPLES = 12250  # 35 quarters × 350 samples
+SAMPLES_PER_QUARTER = 350
+DEFAULT_CONCURRENCY = 10
 TEST_SAMPLES = 5
 START_YEAR = 2017
 END_YEAR = 2025
