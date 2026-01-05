@@ -125,6 +125,7 @@ class BacktestConfigV32:
     stop_loss_pct: Optional[float] = None  # e.g., 0.12 = 12% hard stop
     stop_loss_atr_mult: Optional[float] = None  # e.g., 2.5 = 2.5x ATR20
     atr_lookback: int = 20
+    addon_stop_pct: Optional[float] = None  # e.g., 0.10 = 10% stop ONLY for add-on leg (original position untouched)
 
     # Trailing stop (optional)
     trailing_stop_trigger_pct: Optional[float] = None  # e.g., 0.12 = activate after +12%
@@ -485,6 +486,7 @@ def run_backtest_v32(
     # Statistics
     stats = {
         "stop_loss_triggered": 0,
+        "addon_stop_triggered": 0,
         "scheduled_exits": 0,
         "total_margin_interest": 0.0,
         "max_leverage": 0.0,
@@ -552,6 +554,48 @@ def run_backtest_v32(
         elif px_low <= stop_price:
             # Intraday stop - exit at stop price
             return stop_price
+
+        return None
+
+    def check_addon_stop_loss(sym: str, pos: Dict, session: pd.Timestamp) -> Optional[Tuple[float, float]]:
+        """
+        Check if add-on leg stop-loss is triggered.
+        Only triggers if position has add-on shares and add-on PnL is below threshold.
+        Returns (exit_price, addon_shares_to_sell) if triggered, None otherwise.
+        Original position is NOT touched.
+        """
+        if config.addon_stop_pct is None:
+            return None
+
+        # Check if position has add-on shares
+        addon_count = pos.get("addon_count", 0)
+        if addon_count == 0:
+            return None
+
+        original_shares = pos.get("original_shares", pos["shares"])
+        total_shares = pos["shares"]
+        addon_shares = total_shares - original_shares
+
+        if addon_shares <= 0:
+            return None
+
+        # Get add-on entry price (use max_price at add-on as proxy since we added on pullback)
+        # For pullback add-on, entry is at the pullback price, not the original entry
+        # We need to track addon_entry_price - for now use a conservative estimate
+        addon_entry_price = pos.get("addon_entry_price", pos.get("max_price", pos["entry_price"]))
+
+        # Get current price
+        try:
+            px_now = get_px(sym, session, config.exit_price_col)
+        except PriceProviderError:
+            return None
+
+        # Calculate add-on PnL
+        addon_pnl_pct = (px_now - addon_entry_price) / addon_entry_price if addon_entry_price > 0 else 0
+
+        # Check if add-on stop triggered (e.g., -10% from addon entry)
+        if addon_pnl_pct < -config.addon_stop_pct:
+            return (px_now, addon_shares)
 
         return None
 
@@ -704,6 +748,34 @@ def run_backtest_v32(
             if pos["scheduled_exit_date"] in scheduled_exits:
                 if sym in scheduled_exits[pos["scheduled_exit_date"]]:
                     scheduled_exits[pos["scheduled_exit_date"]].remove(sym)
+
+        # 1.5) Check add-on leg stop-losses (only sell add-on shares, keep original position)
+        addon_stops_to_execute = []
+        for sym, pos in list(positions.items()):
+            result = check_addon_stop_loss(sym, pos, session)
+            if result is not None:
+                addon_stops_to_execute.append((sym, result[0], result[1]))
+
+        # Execute add-on stop-losses (partial exit)
+        for sym, exit_px, addon_shares in addon_stops_to_execute:
+            if sym not in positions:
+                continue
+            pos = positions[sym]
+
+            # Sell only add-on shares
+            proceeds = addon_shares * exit_px
+            proceeds_net = proceeds * (1.0 - per_side_cost)
+            cash += proceeds_net
+
+            # Update position (keep original shares)
+            original_shares = pos.get("original_shares", pos["shares"])
+            pos["shares"] = original_shares  # Reset to original position
+            pos["addon_count"] = 0  # Reset add-on count
+            addon_entry_px = pos.get("addon_entry_price", exit_px)
+            addon_invested = addon_shares * addon_entry_px * (1.0 + per_side_cost)
+            pos["invested_cash"] = float(pos["invested_cash"]) - addon_invested
+
+            stats["addon_stop_triggered"] += 1
 
         # 2) Execute scheduled exits at CLOSE
         if session in scheduled_exits:
@@ -867,6 +939,7 @@ def run_backtest_v32(
                 pos["shares"] = float(pos["shares"]) + addon_shares
                 pos["invested_cash"] = current_invested + addon_cost
                 pos["addon_count"] = addon_count + 1
+                pos["addon_entry_price"] = px_now  # Track add-on entry price for add-on stop-loss
                 if "original_shares" not in pos:
                     pos["original_shares"] = float(pos["shares"]) - addon_shares
 
